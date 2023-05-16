@@ -1,3 +1,20 @@
 body{
   background-color: aquamarine;
 }
+
+/* Log in*/
+.LoginContainer{
+  width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+  align-items: center;
+  text-align: center;
+}
+ 
+.LoginLabel{
+  color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
