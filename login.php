@@ -11,18 +11,18 @@
    
 <div class=LoginContainer>
     <form class=LoginForm action="login.php" method="post">
-            <h2 class=LoginHeader>LOG IND</h2>
+            <h2 class=LoginHeader>Log ind</h2>
 
             <?php if (isset($_GET['error'])) { ?>
                 <p class="LoginError"><?php echo $_GET['error']; ?></p>
             <?php } ?>
 
     <div class=LoginLabel>
-            <label>Brugernavn</label>
-            <input class=LoginInput type="text" name="uname" placeholder="Brugernavn"><br>
+            <label>Email</label>
+            <input class=LoginInput type="text" name="CustEmail" placeholder="eksempel@mail.com"><br>
 
             <label>Kodeord</label>
-            <input class=LoginInput type="password" name="password" placeholder="Kodeord"><br>
+            <input class=LoginInput type="password" name="Password" placeholder="Kodeord"><br>
     </div>
 
             <button class=LoginButton type="submit">Log ind</button>
