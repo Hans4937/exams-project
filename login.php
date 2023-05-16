@@ -10,23 +10,23 @@
 <body>
    
 <div class=LoginContainer>
-<form action="login.php" method="post">
-     	<h2>LOG IND</h2>
+    <form class=LoginForm action="login.php" method="post">
+            <h2 class=LoginHeader>LOG IND</h2>
 
-     	<?php if (isset($_GET['error'])) { ?>
-     		<p class="error"><?php echo $_GET['error']; ?></p>
-     	<?php } ?>
-<div class=LoginLabel>
-     	<label>Brugernavn</label>
-     	<input type="text" name="uname" placeholder="Brugernavn"><br>
+            <?php if (isset($_GET['error'])) { ?>
+                <p class="LoginError"><?php echo $_GET['error']; ?></p>
+            <?php } ?>
 
-     	<label>Kodeord</label>
-     	<input type="password" name="password" placeholder="Kodeord"><br>
-</div>
+    <div class=LoginLabel>
+            <label>Brugernavn</label>
+            <input class=LoginInput type="text" name="uname" placeholder="Brugernavn"><br>
 
-<div class=LoginButton>
-     	<button type="submit">Log ind</button>
-     </form>
+            <label>Kodeord</label>
+            <input class=LoginInput type="password" name="password" placeholder="Kodeord"><br>
+    </div>
+
+            <button class=LoginButton type="submit">Log ind</button>
+        </form>
 </div>
 
 </body>
