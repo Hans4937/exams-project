@@ -14,23 +14,41 @@
 
 <body>
   
-<div class="header">
-  
-    <div class="inner_header">
-      <div class="logo_container">
-        <h1>My <span>Site</span></h1>
+  <div class="Header">
+    
+    <div class="InnerHeader">
+      <div class="LogoContainer">
+        <h1>Nordic <span>Greens</span></h1>
       </div>
       
-      <ul class="navigation">
-        <a><li>Home</li></a>
-        <a><li>Home</li></a>
-        <a><li>Home</li></a>
-        <a><li>Home</li></a>
-      </ul>
+        <ul class="Navigation">
+          <a href="#"><li>Produkter</li></a>
+          <a href="#"><li>Brands</li></a>  
+          <a href="#"><li>Madsspil</li></a>
+          <a href="#"><li>Miljø</li></a>
+          <a href="#"><li>Om os</li></a>
+          <a href="#"><li>Opskrifter</li></a>
+          <a href="#"><li>Jobs</li></a>
+          <a href="#"><li>Erhverv</li></a>
+          <a href="#"><li>Kontakt os</li></a>
+        </ul>
 
-    </div>
-</div>
-  
+
+  </div>
+
+  <div class=Container>
+    
+  </div>
+
+  <div class=Container0>
+    
+  </div>
+
+
+
+  <footer>
+    Hello
+  </footer>
 
   <!-- starting php code -->
   <?php
@@ -38,7 +56,7 @@
 
   ?>
 
-<p>hej</p>
+
 
 </body>
 
