@@ -60,3 +60,43 @@
 	font-size: 18px;
 	padding: 10px;
 }
+
+/* product.php*/
+.ColumnProduct{
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .ColumnProduct {
+    width: 100%;
+  }
+}
+
+/* product.php*/
+.ColumnBrands{
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .ColumnBrands {
+    width: 100%;
+  }
+}
