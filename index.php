@@ -13,6 +13,25 @@
 
 
 <body>
+  
+<div class="header">
+  
+    <div class="inner_header">
+      <div class="logo_container">
+        <h1>My <span>Site</span></h1>
+      </div>
+      
+      <ul class="navigation">
+        <a><li>Home</li></a>
+        <a><li>Home</li></a>
+        <a><li>Home</li></a>
+        <a><li>Home</li></a>
+      </ul>
+
+    </div>
+</div>
+  
+
   <!-- starting php code -->
   <?php
 
