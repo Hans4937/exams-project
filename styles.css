@@ -92,17 +92,100 @@ footer{
 
 /* Log in*/
 .LoginContainer{
-  width: 500px;
-	border: 2px solid #ccc;
-	padding: 30px;
-	background: #fff;
-	border-radius: 15px;
   align-items: center;
-  text-align: center;
+  background: #1690A7;
+	display: flex;
+  flex-direction: column;
+	height: 100vh;
+	justify-content: center;
 }
  
 .LoginLabel{
   color: #888;
 	font-size: 18px;
 	padding: 10px;
+}
+
+.LoginForm {
+  background: #fff;
+  border: 2px solid #ccc;
+	border-radius: 15px;
+  padding: 30px;
+  width: 500px;
+}
+
+.LoginError{
+  background: #F2DEDE;
+  border-radius: 5px;
+  color: #A94442;
+  margin: 20px auto;
+  padding: 10px;
+  width: 95%;
+}
+
+.LoginHeader{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.LoginInput{
+  border: 2px solid #ccc;
+	border-radius: 5px;
+  display: block;
+	margin: 10px auto;
+  padding: 10px;
+  width: 95%;
+}
+
+.LoginButton {
+  background: #555;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  float: right;
+	margin-right: 10px;
+  padding: 10px 15px;
+}
+
+.LoginButton:hover {
+  opacity: .8;
+}
+/* product.php*/
+.ColumnProduct{
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .ColumnProduct {
+    width: 100%;
+  }
+}
+
+/* product.php*/
+.ColumnBrands{
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .ColumnBrands {
+    width: 100%;
+  }
 }
