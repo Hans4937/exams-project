@@ -90,6 +90,8 @@ footer{
 
 
 
+
+
 /* Log in*/
 .LoginContainer{
   align-items: center;
@@ -112,15 +114,6 @@ footer{
 	border-radius: 15px;
   padding: 30px;
   width: 500px;
-}
-
-.LoginError{
-  background: #F2DEDE;
-  border-radius: 5px;
-  color: #A94442;
-  margin: 20px auto;
-  padding: 10px;
-  width: 95%;
 }
 
 .LoginHeader{
@@ -149,6 +142,15 @@ footer{
 
 .LoginButton:hover {
   opacity: .8;
+}
+
+.LoginError{
+  background: #F2DEDE;
+  border-radius: 5px;
+  color: #A94442;
+  margin: 20px auto;
+  padding: 10px;
+  width: 95%;
 }
 /* product.php*/
 .ColumnProduct{
