@@ -9,20 +9,24 @@
   <!-- linking script and stylesheet -->
   <script src="./scripts.js"></script>
   <link rel="stylesheet" href="./styles.css"></link>
+
+  
+
 </head>
 
 
 <body>
-  
+  <!--Header-->
   <div class="Header">
-    
+    <!--Div inside header-->
     <div class="InnerHeader">
+     <!--Logo in InnerHeader--> 
       <div class="LogoContainer">
         <h1>Nordic <span>Greens</span></h1>
       </div>
-      
+      <!-- navigation inside InnerHeader-->
         <ul class="Navigation">
-          <a href="#"><li>Produkter</li></a>
+          <a href="MinisLegeRUm"><li>Produkter</li></a>
           <a href="#"><li>Brands</li></a>  
           <a href="#"><li>Madsspil</li></a>
           <a href="#"><li>Miljø</li></a>
@@ -32,6 +36,9 @@
           <a href="#"><li>Erhverv</li></a>
           <a href="#"><li>Kontakt os</li></a>
         </ul>
+
+
+
 
 
   </div>
