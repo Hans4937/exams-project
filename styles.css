@@ -175,42 +175,72 @@ padding: 10px;
 width: 95%;
 }
 
-/* product.php */
-.ColumnProduct{
-float: left;
-width: 25%;
+.ShopByProduct {
+  text-align: center;
+  margin-bottom: 20px;
+
 }
 
-/* Clear floats after the columns */
-.row1:after {
-content: "";
-display: table;
-clear: both;
+.grid-container-product {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Three columns of equal width */
+  grid-gap: 10px; /* Spacing between grid items */
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-.ColumnProduct {
-width: 100%;
-}
+.grid-item {
+  background-color: #e9e9e9;
+  padding: 20px;
+
+}.ShopByBrand {
+  text-align: center;
+  margin-bottom: 20px;
+
 }
 
-/* product.php */
-.ColumnBrands{
-float: left;
-width: 25%;
+.grid-container-Brand {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Three columns of equal width */
+  grid-gap: 10px; /* Spacing between grid items */
+
 }
 
-/* Clear floats after the columns */
-.row2:after {
-content: "";
-display: table;
-clear: both;
+.grid-item {
+  background-color: #e9e9e9;
+  padding: 20px;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-.ColumnBrands {
-width: 100%;
+.ShopByEco {
+  text-align: center;
+  margin-bottom: 20px;
+
 }
+
+.GridContainerEco {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* Three columns of equal width */
+  grid-gap: 10px; /* Spacing between grid items */
+
+}
+
+.grid-item {
+  background-color: #e9e9e9;
+  padding: 20px;
+}
+
+.ShopAllProducts {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.GridContainerAllProduct {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;; /* Three columns of equal width */
+  grid-gap: 10px; /* Spacing between grid items */
+
+}
+
+.grid-item {
+  background-color: #e9e9e9;
+  padding: 20px;
 }

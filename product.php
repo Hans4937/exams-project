@@ -11,154 +11,63 @@
 </head>
 <body>
 
-  <!--
-  <style>
-    .product {
-      display: flex;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-    
-    .product-image {
-      width: 150px;
-      height: 150px;
-      margin-right: 20px;
-    }
-    
-    .product-details {
-      flex-grow: 1;
-    }
-    
-    .product-title {
-      font-size: 20px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    
-    .product-description {
-      font-size: 14px;
-      margin-bottom: 10px;
-    }
-    
-    .product-price {
-      font-size: 16px;
-      font-weight: bold;
-    }
-  </style>
-</head>
-<body>
--->
-<h1>Shop by product</h1>
-
-<div class="row1">
-<div class="ColumnProduct" style="background-color:#aaa;">
-    <h2> Agurk </h2>
-    <p>Some text..</p>
-  </div>
-  <div class="ColumnProduct" style="background-color:#bbb;">
-    <h2>Salat </h2>
-    <p>Some text..</p>
-  </div>
-  <div class="ColumnProduct" style="background-color:#ccc;">
-    <h2> Tomat </h2>
-    <p>Some text..</p>
-  </div>
-  <div class="ColumnProduct" style="background-color:#ddd;">
-    <h2> Peberfrugt </h2>
-    <p>Some text..</p>
-  </div>
-  <div class="ColumnProduct" style="background-color:#ddd;">
-    <h2> Konserves </h2>
-    <p>Some text..</p>
+<h1 id="ShopByProduct">Shop by Product</h1>
+<div class="grid-container-product">
+  <div class="grid-item">Agurker</div>
+  <div class="grid-item">Tomater</div>
+  <div class="grid-item">Salat</div>
+  <div class="grid-item">Peberfrugt</div>
+  <div class="grid-item">Konserves</div>
 </div>
 
-<h1>Shop by Brand</h1>
-
-<div class="row2">
-<div class="ColumnBrands" style="background-color:#aaa;">
-    <h2> Katrine & Alfreds </h2>
-    <p>Some text..</p>
-  </div>
-  <div class="ColumnBrands" style="background-color:#bbb;">
-    <h2>Pedersens udvalgte </h2>
-    <p>Some text..</p>
-  </div>
+<h1 id="ShopByBrand">Shop by Brand</h1>
+<div class="grid-container-Brand">
+  <div class="grid-item">Katrine og Alfreds</div>
+  <div class="grid-item">Pedersens udvalgte</div>
 </div>
 
-<!--
-<h1>Shop by</h1>
-  
-  <div id="products-container"></div>
-  
-  <script>
-    // Sample product data (you can replace it with your own data)
-    var products = [
-      {
-        title: "Product 1",
-        description: "This is the description of product 1.",
-        price: 9.99,
-        imageUrl: "https://example.com/product1.jpg"
-      },
-      {
-        title: "Product 2",
-        description: "This is the description of product 2.",
-        price: 19.99,
-        imageUrl: "https://example.com/product2.jpg"
-      },
-      // Add more product objects as needed
-    ];
-    
-    // Function to create a product card element
-    function createProductCard(product) {
-      var productCard = document.createElement("div");
-      productCard.className = "product";
-      
-      var productImage = document.createElement("img");
-      productImage.className = "product-image";
-      productImage.src = product.imageUrl;
-      productCard.appendChild(productImage);
-      
-      var productDetails = document.createElement("div");
-      productDetails.className = "product-details";
-      
-      var productTitle = document.createElement("div");
-      productTitle.className = "product-title";
-      productTitle.textContent = product.title;
-      productDetails.appendChild(productTitle);
-      
-      var productDescription = document.createElement("div");
-      productDescription.className = "product-description";
-      productDescription.textContent = product.description;
-      productDetails.appendChild(productDescription);
-      
-      var productPrice = document.createElement("div");
-      productPrice.className = "product-price";
-      productPrice.textContent = "$" + product.price.toFixed(2);
-      productDetails.appendChild(productPrice);
-      
-      productCard.appendChild(productDetails);
-      
-      return productCard;
-    }
-    
-    // Function to display products on the page
-    function displayProducts() {
-      var productsContainer = document.getElementById("products-container");
-      
-      // Clear the container
-      productsContainer.innerHTML = "";
-      
-      // Create and append product cards
-      for (var i = 0; i < products.length; i++) {
-        var productCard = createProductCard(products[i]);
-        productsContainer.appendChild(productCard);
-      }
-    }
-    
-    // Display the products initially
-    displayProducts();
-  </script>
--->
+<h1 id="ShopByEco">Shop Økologi</h1>
+<div class="GridContainerEco">
+  <div class="grid-item">Anna Tomater</div>
+  <div class="grid-item">August Tomater</div>
+  <div class="grid-item">Stammeagurk</div>
+  <div class="grid-item">Runde Tomater</div>
+  <div class="grid-item">San Marzano</div> 
+  <div class="grid-item">Cherry Tomater på stilk</div>
+  <div class="grid-item">Cherry Tomater løse</div>
+  <div class="grid-item">Intensity Tomater</div>
+  <div class="grid-item">Katriene og Alfreds Agurker</div>
+  <div class="grid-item">Fravalgte Tomater</div>
+  <div class="grid-item">Fravalgte Agurker</div>
+</div>
+
+<h1 id="ShopAllProducts">Shop all Products</h1>
+<div class="GridContainerAllProduct">
+  <div class="grid-item">Anna Tomater</div>
+  <div class="grid-item">August Tomater</div>
+  <div class="grid-item">Stammeagurk</div>
+  <div class="grid-item">Runde Tomater</div>
+  <div class="grid-item">San Marzano</div> 
+  <div class="grid-item">Cherry Tomater på stilk</div>
+  <div class="grid-item">Cherry Tomater løse</div>
+  <div class="grid-item">Intensity Tomater</div>
+  <div class="grid-item">Fravalgte Tomater Øko</div>
+  <div class="grid-item">Fravalgte Agurker Øko</div>
+  <div class="grid-item">Ida Tomater</div>
+  <div class="grid-item">Runde Tomater</div>
+  <div class="grid-item">Blomme Tomater</div>
+  <div class="grid-item">San Marzano Tomater</div>
+  <div class="grid-item">Peberfrugt</div> 
+  <div class="grid-item">Palermo Snack Tomater</div>
+  <div class="grid-item">Ketchup</div>
+  <div class="grid-item">Pastasauce</div>
+  <div class="grid-item">Snack Mix</div>
+  <div class="grid-item">Fravalgte Tomater</div>
+  <div class="grid-item">Fravalgte Agurker</div>
+  <div class="grid-item">Katriene og Alfreds Agurker</div>
+  <div class="grid-item">Katriene og Alfreds Classic Tomater</div>
+  <div class="grid-item">Katriene og Alfreds Peberfrugt</div>
+</div>
     
 </body>
 </html>
