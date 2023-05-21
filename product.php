@@ -9,64 +9,175 @@
   <script src="./scripts.js"></script>
   <link rel="stylesheet" href="./styles.css"></link>
 </head>
-<body>
+<body class="ProductPage">
+
+  <!-- Header -->
+  <div class="Headerb2b">
+    <!-- Div inside header -->
+    <div class="InnerHeaderb2b">
+      <!-- Logo in InnerHeader --> 
+      <div class="LogoContainerb2b">
+        <a href="index.php"><h1>Nordic <span>Greens</span></h1></a>
+    </div>
+    <!-- Search bar -->
+    <div class="SearchBar">
+      <input type="text" placeholder="Search..." />
+      <button type="submit">Search</button>
+    </div>
+    <!-- Navigation inside InnerHeader -->
+    <ul class="Navigationb2b">
+      <a href="produkter.php"><li>Produkter</li></a>
+      <a href="brands.php"><li>Brands</li></a>  
+      <a href="login.php"><li>Erhverv</li></a>
+      <button class="KontaktOsb2b" href="kontaktOs.php"><li>Kontakt os</li></button>
+    </ul>
+  </div>
+</div>
 
 <h1 id="ShopByProduct">Shop by Product</h1>
-<div class="grid-container-product">
-  <div class="grid-item">Agurker</div>
-  <div class="grid-item">Tomater</div>
-  <div class="grid-item">Salat</div>
-  <div class="grid-item">Peberfrugt</div>
-  <div class="grid-item">Konserves</div>
+<div class="GridContainerProduct">
+  <div class="GridItem">
+    <h2>Agurker</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Salat</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Peberfrugt</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Konserves</h2>
+  </div>
 </div>
 
 <h1 id="ShopByBrand">Shop by Brand</h1>
-<div class="grid-container-Brand">
-  <div class="grid-item">Katrine og Alfreds</div>
-  <div class="grid-item">Pedersens udvalgte</div>
+<div class="GridContainerBrand">
+  <div class="GridItem"> 
+    <h2>Katrine og Alfreds</h2> 
+  </div>
+  <div class="GridItem">
+    <h2>Pedersens udvalgte</h2>
+  </div>
 </div>
 
 <h1 id="ShopByEco">Shop Økologi</h1>
 <div class="GridContainerEco">
-  <div class="grid-item">Anna Tomater</div>
-  <div class="grid-item">August Tomater</div>
-  <div class="grid-item">Stammeagurk</div>
-  <div class="grid-item">Runde Tomater</div>
-  <div class="grid-item">San Marzano</div> 
-  <div class="grid-item">Cherry Tomater på stilk</div>
-  <div class="grid-item">Cherry Tomater løse</div>
-  <div class="grid-item">Intensity Tomater</div>
-  <div class="grid-item">Katriene og Alfreds Agurker</div>
-  <div class="grid-item">Fravalgte Tomater</div>
-  <div class="grid-item">Fravalgte Agurker</div>
+  <div class="GridItem">
+    <h2>Anna Tomater</h2>
+    
+  </div>
+  <div class="GridItem">
+    <h2>August Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Stammeagurk</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Runde Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>San Marzano</h2>
+  </div> 
+  <div class="GridItem">
+    <h2>Cherry Tomater på stilk</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Cherry Tomater løse</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Intensity Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Katrine og Alfreds Agurker</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Fravalgte Tomater Øko</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Fravalgte Agurker Øko</h2>
+  </div>
 </div>
 
 <h1 id="ShopAllProducts">Shop all Products</h1>
 <div class="GridContainerAllProduct">
-  <div class="grid-item">Anna Tomater</div>
-  <div class="grid-item">August Tomater</div>
-  <div class="grid-item">Stammeagurk</div>
-  <div class="grid-item">Runde Tomater</div>
-  <div class="grid-item">San Marzano</div> 
-  <div class="grid-item">Cherry Tomater på stilk</div>
-  <div class="grid-item">Cherry Tomater løse</div>
-  <div class="grid-item">Intensity Tomater</div>
-  <div class="grid-item">Fravalgte Tomater Øko</div>
-  <div class="grid-item">Fravalgte Agurker Øko</div>
-  <div class="grid-item">Ida Tomater</div>
-  <div class="grid-item">Runde Tomater</div>
-  <div class="grid-item">Blomme Tomater</div>
-  <div class="grid-item">San Marzano Tomater</div>
-  <div class="grid-item">Peberfrugt</div> 
-  <div class="grid-item">Palermo Snack Tomater</div>
-  <div class="grid-item">Ketchup</div>
-  <div class="grid-item">Pastasauce</div>
-  <div class="grid-item">Snack Mix</div>
-  <div class="grid-item">Fravalgte Tomater</div>
-  <div class="grid-item">Fravalgte Agurker</div>
-  <div class="grid-item">Katriene og Alfreds Agurker</div>
-  <div class="grid-item">Katriene og Alfreds Classic Tomater</div>
-  <div class="grid-item">Katriene og Alfreds Peberfrugt</div>
+<div class="GridItem">
+    <h2>Anna Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>August Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Stammeagurk</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Runde Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>San Marzano</h2>
+  </div> 
+  <div class="GridItem">
+    <h2>Cherry Tomater på stilk</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Cherry Tomater løse</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Intensity Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Katrine og Alfreds Agurker</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Fravalgte Tomater Øko</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Fravalgte Agurker Øko</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Ida Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Runde Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Blomme Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>San Marzano Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Peberfrugt</h2>
+  </div> 
+  <div class="GridItem">
+    <h2>Palermo Snack Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Ketchup</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Pastasauce</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Snack Mix</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Fravalgte Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Fravalgte Agurker</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Katriene og Alfreds Agurker</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Katriene og Alfreds Classic Tomater</h2>
+  </div>
+  <div class="GridItem">
+    <h2>Katriene og Alfreds Peberfrugt</h2>
+  </div>
 </div>
     
 </body>
