@@ -5,11 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nordic Greens</title>
-
   <!-- linking script and stylesheet -->
   <script src="./scripts.js"></script>
   <link rel="stylesheet" href="./styles.css"></link>
-
+  
 
 </head>
 
@@ -21,7 +20,7 @@
     <div class="InnerHeader">
      <!-- Logo in InnerHeader --> 
       <div class="LogoContainer">
-        <a href="index.php"><h1>Nordic <span>Greens</span></h1></a>
+        <a href="index.php"><img class="Logo" src="./img/Logo.png" alt="sa"> <h1>Nordic <span>Greens</span></h1></a>
       </div>
       <!-- Navigation inside InnerHeader -->
       <ul class="Navigation">
@@ -59,7 +58,49 @@ peberfrugter <span>Vi elsker naturligvis tomater, agurker og peberfrugter. Det g
 
 
   <footer>
-    Hello
+    <div class="Container1">
+      <div class="Row">
+        <div class="FooterColumn">
+          <h4>Nordic Greens</h4>
+          <ul>
+            <li>Assensvej 217</li>
+            <li>5250 Odense SV</li>
+            <li>Danmark</li>
+            <li>CVR-nr. 29 63 45 21</li>
+            <li><a href="#">Linkedin</a></li>
+          </ul>
+        </div>
+        <div class="FooterColumn">
+          <h4>Pedersens Udvalgte</h4>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="FooterColumn">
+          <h4>Katrine & Alfreds</h4>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="FooterColumn">
+          <h4>SSSS</h4>
+          <ul>
+            <li><a href="#">Produkter</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">Opskrifter</a></li>
+            <li><a href="#">Madspild</a></li>
+            <li><a href="#">Miljø & CSR</a></li>
+            <li><a href="#">Om os</a></li>
+            <li><a href="#">Presse</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Erhverv</a></li>
+            <li><a href="#">Kontakt os</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <!-- Starting PHP code -->
