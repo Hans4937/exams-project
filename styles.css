@@ -250,6 +250,15 @@ margin: 20px auto;
 padding: 10px;
 width: 95%;
 }
+/* product page*/
+.ProductPage {
+  background-color: #a4d792;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto';
+}
 
 /* SearchBar */
 .SearchBar {
@@ -276,13 +285,8 @@ width: 95%;
   margin-left: 8px;
 }
 
-/* product page*/
-.ProductPage {
-  background-color: #a4d792;
-}
-
-/* header for b2b*/
-.Headerb2b{
+/* header for b2b */
+.Headerb2b {
   position: sticky;
   top: 0;
   width: 100%;
@@ -290,27 +294,27 @@ width: 95%;
   display: block;
   background-color: #f5f5f5;
   z-index: 100;
-  }
-  
-  .InnerHeaderb2b{
-    position: relative;
-    width: 80%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    background-color: #f5f5f5;
-  }
-  
-  .LogoContainerb2b{
-    display: flex;
-    align-items: center;
-    height: 100%;
-  }
-  
-  /* Logo style */
-  .LogoContainerb2b h1{
+}
+
+.InnerHeaderb2b {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+
+.LogoContainerb2b {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Logo style */
+.LogoContainerb2b h1 {
   padding-top: 18px;
   color: #424141;
   height: 100%;
@@ -318,30 +322,29 @@ width: 95%;
   vertical-align: middle;
   font-size: 32px;
   font-weight: 200;
-  }
-  
-  /* Logo style */
-  .LogoContainerb2b span{
+}
+
+/* Logo style */
+.LogoContainerb2b span {
   font-weight: 800;
-  }
-  
-  .Navigationb2b{
+}
+
+.Navigationb2b {
   float: right;
   height: 100%;
-  }
-  
-  .Navigationb2b a{
+}
+
+.Navigationb2b a {
   height: 100%;
   display: table;
   float: left;
   padding: 0px 18px;
-  
-  }
-  
-  /*Kontakt os button*/
-  .KontaktOsb2b{
+}
+
+/* Kontakt os button */
+.KontaktOsb2b {
   padding: 10px;
-  margin-top: 18px;
+  margin-top: 1px;
   background-color: #a4d792;
   border-radius: 8px;
   height: 40px;
@@ -350,30 +353,58 @@ width: 95%;
   color: #424141;
   cursor: pointer;
   font-size: 17px;
-  }
-  .KontaktOsb2b:hover{
-    scale: 110%;
-  }
-  
-  
-  .Navigationb2b a li{
+}
+
+ /* Shoppingcart */
+.CartButton {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #a4d792;
+  border-radius: 8px;
+  height: 40px;
+  border-style: none;
+  font-family: "roboto";
+  color: #424141;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CartButton:hover {
+  background-color: #8ac77f; /* Adjust the background color as desired */
+}
+
+.CartButton img {
+  width: 20px; /* Adjust the width as desired */
+  height: 20px; /* Adjust the height as desired */
+  margin-bottom: 8px;
+}
+
+.KontaktOsb2b:hover {
+  scale: 110%;
+}
+
+.Navigationb2b a li {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
   color: #424141;
   font-size: 17px;
-  }
-  
-  /* Change color when hover */
-  .Navigationb2b a li:hover{
-  color:  #a4d792;
+}
+
+/* Change color when hover */
+.Navigationb2b a li:hover {
+  color: #a4d792;
   scale: 110%;
-  }
+}
 
 
 .ShopByProduct {
   text-align: center;
   margin-bottom: 20px;
+  margin-left: 20px;
 
 }
 
@@ -381,10 +412,15 @@ width: 95%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Three columns of equal width */
   grid-gap: 10px; /* Spacing between grid items */
+  margin-left: 145px;
+  margin-right: 145px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .GridContainerProduct .GridItem:nth-child(1) {
   background-image: url(img/product/agurker.png);
+  height: 200px;
 }
 
 .GridContainerProduct .GridItem:nth-child(2) {
@@ -414,6 +450,10 @@ width: 95%;
   display: grid;
   grid-template-columns: 1fr 1fr; /* two columns of equal width */
   grid-gap: 10px; /* Spacing between grid items */
+  margin-left: 145px;
+  margin-right: 145px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
 }
 
@@ -436,10 +476,12 @@ width: 95%;
 
 .GridContainerBrand .GridItem:nth-child(1) {
   background-image: url(img/brands/katrineogalfreds.png);
+  height: 500px;
 }
 
 .GridContainerBrand .GridItem:nth-child(2) {
   background-image: url(img/brands/pedersensudvalgte.png);
+  height: 500px;
 }
 
 .ShopByEco {
@@ -452,11 +494,16 @@ width: 95%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* six columns of equal width */
   grid-gap: 10px; /* Spacing between grid items */
+  margin-left: 145px;
+  margin-right: 145px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
 }
 
 .GridContainerEco .GridItem:nth-child(1) {
   background-image: url(img/product/annatomatereco.jpeg);
+  height: 125px;
 }
 
 .GridContainerEco .GridItem:nth-child(2) {
@@ -481,6 +528,7 @@ width: 95%;
 
 .GridContainerEco .GridItem:nth-child(7) {
   background-image: url(img/product/cherrytomaterloseeco.jpeg);
+  height: 125px;
 }
 
 .GridContainerEco .GridItem:nth-child(8) {
@@ -503,18 +551,22 @@ width: 95%;
 .ShopAllProducts {
   text-align: center;
   margin-bottom: 20px;
-
 }
 
 .GridContainerAllProduct {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;; /* Three columns of equal width */
   grid-gap: 10px; /* Spacing between grid items */
+  margin-left: 145px;
+  margin-right: 145px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
 }
 
 .GridContainerAllProduct .GridItem:nth-child(1) {
   background-image: url(img/product/annatomatereco.jpeg);
+height: 125px;
 }
 
 
@@ -544,7 +596,9 @@ width: 95%;
 
 .GridContainerAllProduct .GridItem:nth-child(7) {
   background-image: url(img/product/cherrytomaterloseeco.jpeg);
+  height: 125px;
 }
+
 
 
 .GridContainerAllProduct .GridItem:nth-child(8) {
@@ -574,6 +628,7 @@ width: 95%;
 
 .GridContainerAllProduct .GridItem:nth-child(13) {
   background-image: url(img/product/rundetomater.jpeg);
+  height: 125px;
 }
 
 
@@ -604,6 +659,7 @@ width: 95%;
 
 .GridContainerAllProduct .GridItem:nth-child(19) {
   background-image: url(img/product/pastasauce.jpeg);
+  height: 125px;
 }
 
 
@@ -633,5 +689,6 @@ width: 95%;
 
 .GridContainerAllProduct .GridItem:nth-child(25) {
   background-image: url(img/product/katrineogalfredspeberfrugter.jpeg);
+  height: 125px;
 }
 

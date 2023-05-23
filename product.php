@@ -11,13 +11,13 @@
 </head>
 <body class="ProductPage">
 
-  <!-- Header -->
-  <div class="Headerb2b">
-    <!-- Div inside header -->
-    <div class="InnerHeaderb2b">
-      <!-- Logo in InnerHeader --> 
-      <div class="LogoContainerb2b">
-        <a href="index.php"><h1>Nordic <span>Greens</span></h1></a>
+<!-- Header -->
+<div class="Headerb2b">
+  <!-- Div inside header -->
+  <div class="InnerHeaderb2b">
+    <!-- Logo in InnerHeader --> 
+    <div class="LogoContainerb2b">
+      <a href="index.php"><h1>Nordic <span>Greens</span></h1></a>
     </div>
     <!-- Search bar -->
     <div class="SearchBar">
@@ -25,14 +25,18 @@
       <button type="submit">Search</button>
     </div>
     <!-- Navigation inside InnerHeader -->
-    <ul class="Navigationb2b">
+      <ul class="Navigationb2b">
       <a href="produkter.php"><li>Produkter</li></a>
       <a href="brands.php"><li>Brands</li></a>  
       <a href="login.php"><li>Erhverv</li></a>
-      <button class="KontaktOsb2b" href="kontaktOs.php"><li>Kontakt os</li></button>
+      <a href="kontaktOs.php"><li><button class="KontaktOsb2b">Kontakt  os</button></li></a>
+      <button class="CartButton">
+      <img src="./img/Shoppingcart.png" alt="Shopping Cart">
+      </button>
     </ul>
   </div>
 </div>
+
 
 <h1 id="ShopByProduct">Shop by Product</h1>
 <div class="GridContainerProduct">
@@ -179,6 +183,7 @@
     <h2>Katriene og Alfreds Peberfrugt</h2>
   </div>
 </div>
-    
+
 </body>
 </html>
+
