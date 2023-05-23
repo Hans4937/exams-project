@@ -11,7 +11,7 @@
 
 <!-- Login form -->
 <div class=LoginContainer>
-    <form class=LoginForm action="login.php" method="post">
+    <form class=LoginForm action="product.php" method="post">
             <h2 class=LoginHeader>Log ind</h2>
 
             <?php if (isset($_GET['error'])) { ?>
