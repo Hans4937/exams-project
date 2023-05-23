@@ -37,24 +37,7 @@
     </div>
   </div>
 
-  <div class="Container">
-  <div class="text">
-    <h1>Danmarks mest forkælede
-tomater, agurker og
-peberfrugter <span>Vi elsker naturligvis tomater, agurker og peberfrugter. Det gør vi, fordi de ganske simpelt smager fantastisk, men også for deres gode, sunde egenskaber. Selv den mindste lille tomat er en sand bombe af gode og vigtige vitaminer og mineraler. Så spis endelig løs – især af de danske og solmodne tomater, agurker og peberfrugter.</span>
-</h1>
-  </div>
-    <div class="img">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, neque sit. Deleniti labore, eum inventore illum porro quam pariatur ipsam sapiente nulla magnam sit repellat, odio tempora tenetur voluptatum dolores.
-    </div>
-  </div>
-
-
-  <div class="Container0">
-    <div class="text"></div>
-    <div class="img"></div>
-
-  </div>
+  
 
 
   <footer>
