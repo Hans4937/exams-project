@@ -252,7 +252,7 @@ width: 95%;
 }
 /* product page*/
 .ProductPage {
-  background-color: #a4d792;
+  background-color: #A0C24A;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -276,7 +276,7 @@ width: 95%;
 
 .SearchBar button[type="submit"] {
   padding: 8px 12px;
-  background-color: #a4d792;
+  background-color: #A0C24A;
   border: none;
   border-radius: 4px;
   color: #424141;
@@ -347,7 +347,7 @@ width: 95%;
 .KontaktOsb2b {
   padding: 10px;
   margin-top: 1px;
-  background-color: #a4d792;
+  background-color: #A0C24A;
   border-radius: 8px;
   height: 40px;
   border-style: none;
@@ -361,7 +361,7 @@ width: 95%;
 .CartButton {
   padding: 10px;
   margin-top: 20px;
-  background-color: #a4d792;
+  background-color: #A0C24A;
   border-radius: 8px;
   height: 40px;
   border-style: none;
@@ -374,6 +374,10 @@ width: 95%;
   align-items: center;
 }
 
+.KontaktOsb2b:hover {
+  scale: 110%;
+}
+
 .CartButton:hover {
   background-color: #8ac77f; /* Adjust the background color as desired */
 }
@@ -382,10 +386,6 @@ width: 95%;
   width: 20px; /* Adjust the width as desired */
   height: 20px; /* Adjust the height as desired */
   margin-bottom: 8px;
-}
-
-.KontaktOsb2b:hover {
-  scale: 110%;
 }
 
 .Navigationb2b a li {
@@ -403,6 +403,7 @@ width: 95%;
 }
 
 
+/* ShopByProduct styling of text */
 .ShopByProduct {
   text-align: center;
   margin-bottom: 20px;
@@ -410,6 +411,7 @@ width: 95%;
 
 }
 
+/* ShopByProduct styling of grids */
 .GridContainerProduct {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* Three columns of equal width */
@@ -420,6 +422,7 @@ width: 95%;
   margin-bottom: 10px;
 }
 
+/* Different pictures used as background in ShopByProduct */
 .GridContainerProduct .GridItem:nth-child(1) {
   background-image: url(./img/product/agurker.jpg);
   height: 200px;
@@ -449,13 +452,14 @@ width: 95%;
   background-image: url(./img/product/alleprodukter.jpg);
 }
 
-
+/* ShopByProduct styling of text */
 .ShopByBrand {
   text-align: center;
   margin-bottom: 20px;
 
 }
 
+/* ShopByBrand styling of grids */
 .GridContainerBrand {
   display: grid;
   grid-template-columns: 1fr 1fr; /* two columns of equal width */
@@ -467,15 +471,7 @@ width: 95%;
 
 }
 
-.GridItem {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px;
-  color: black;
-  text-shadow: 1px, 1px, 1px black;
-}
-
+/* Different pictures used as background in ShopByProduct */
 .GridContainerBrand .GridItem:nth-child(1) {
   background-image: url(./img/brands/katrineogalfreds.png);
   height: 250px;
@@ -486,97 +482,46 @@ width: 95%;
   height: 250px;
 }
 
-.ShopByEco {
-  text-align: center;
-  margin-bottom: 20px;
-
+/*Styling of text and background on GridItem for ShopByProduct and ShopByBrand */
+.GridItem {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: black;
+  text-shadow: 1px, 1px, 1px black;
 }
 
-.GridContainerEco {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* six columns of equal width */
-  grid-gap: 10px; /* Spacing between grid items */
-  margin-left: 145px;
-  margin-right: 145px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-
-}
-
-/*
-.GridContainerEco .GridItem:nth-child(1) {
-  background-image: url(./img/product/anatomatereco.jpeg);
-  height: 125px;
-}
-
-.GridContainerEco .GridItem:nth-child(2) {
-  background-image: url(./img/product/tomataugust.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(3) {
-  background-image: url(./img/product/satmmeagurkeco.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(4) {
-  background-image: url(./img/product/rundetomaterøko.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(5) {
-  background-image: url(./img/product/sanmarzanoeco.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(6) {
-  background-image: url(./img/product/cherrytomaterpåstilkeco.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(7) {
-  background-image: url(./img/product/cherrytomaterloseeco.jpeg);
-  height: 125px;
-}
-
-.GridContainerEco .GridItem:nth-child(8) {
-  background-image: url(./img/product/intensitytomatereco.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(9) {
-  background-image: url(./img/product/katrineogalfredsagurkereco.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(10) {
-  background-image: url(./img/product/fravalgtetomatereco.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(11) {
-  background-image: url(./img/product/fravalgteagurkereco.jpeg);
-}
-*/
-
-.ShopAllProducts {
+/* ShopAllProduct styling of text */
+.ShopAllProduct {
   text-align: center;
   margin-bottom: 20px;
 }
 
+/* ShopAllProduct styling of grids */
 .GridContainerAllProduct {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Three columns of equal width */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Five columns of equal width */
   grid-gap: 10px; /* Spacing between grid items */
   margin-left: 145px;
   margin-right: 145px;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
+/* styling of images used in ShopAllProduct */
 .GridItemAllProduct img {
   width: 150px; /* Adjust the width as per your preference */
   height: auto; /* Maintain aspect ratio */
 }
 
+/* styling of divs background in ShopAllProduct */
 .GridItemAllProduct {
   background-color: white;
   padding: 20px;
 }
 
+/* styling of text and text background in ShopAllProduct */
 .GridItemAllProduct h2,
 .GridItemAllProduct p,
 .GridItemAllProduct input[type="number"],
@@ -711,5 +656,70 @@ width: 200px;
 .GridContainerAllProduct .GridItem:nth-child(25) {
   background-image: url(./img/product/katrineogalfredspeberfrugter.jpeg);
   height: 125px;
+}
+*/
+
+/*
+.ShopByEco {
+  text-align: center;
+  margin-bottom: 20px;
+}
+*/
+
+/* 
+.GridContainerEco {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* six columns of equal width */
+ /*  grid-gap: 10px; /* Spacing between grid items */
+ /*  margin-left: 145px;
+  margin-right: 145px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}*/
+/* 
+.GridContainerEco .GridItem:nth-child(1) {
+  background-image: url(./img/product/anatomatereco.jpeg);
+  height: 125px;
+}
+
+.GridContainerEco .GridItem:nth-child(2) {
+  background-image: url(./img/product/tomataugust.jpeg);
+}
+
+.GridContainerEco .GridItem:nth-child(3) {
+  background-image: url(./img/product/satmmeagurkeco.jpeg);
+}
+
+.GridContainerEco .GridItem:nth-child(4) {
+  background-image: url(./img/product/rundetomaterøko.jpeg);
+}
+
+.GridContainerEco .GridItem:nth-child(5) {
+  background-image: url(./img/product/sanmarzanoeco.jpeg);
+}
+
+.GridContainerEco .GridItem:nth-child(6) {
+  background-image: url(./img/product/cherrytomaterpåstilkeco.jpeg);
+}
+
+.GridContainerEco .GridItem:nth-child(7) {
+  background-image: url(./img/product/cherrytomaterloseeco.jpeg);
+  height: 125px;
+}
+
+.GridContainerEco .GridItem:nth-child(8) {
+  background-image: url(./img/product/intensitytomatereco.jpeg);
+}
+
+.GridContainerEco .GridItem:nth-child(9) {
+  background-image: url(./img/product/katrineogalfredsagurkereco.jpeg);
+}
+
+.GridContainerEco .GridItem:nth-child(10) {
+  background-image: url(./img/product/fravalgtetomatereco.jpeg);
+}
+
+.GridContainerEco .GridItem:nth-child(11) {
+  background-image: url(./img/product/fravalgteagurkereco.jpeg);
 }
 */
