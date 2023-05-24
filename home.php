@@ -3,16 +3,18 @@
 <?php 
 session_start();
 
-if (isset($_SESSION['CustomerID']) && isset($_SESSION['CustomerEmail'])) {
+if (isset($_SESSION['id']) && isset($_SESSION['CustomerEmail'])) {
 
  ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>HOME</title>
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-     <h1>Hello, <?php echo $_SESSION['CustomerEmail']; ?></h1>
+     <h1>Hello, <?php echo $_SESSION['name']; ?></h1>
+     <a class=Logout href="logout.php">Log ud</a>
 </body>
 </html>
 

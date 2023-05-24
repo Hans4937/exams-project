@@ -16,10 +16,10 @@ if (isset($_POST['CustomerEmail']) && isset($_POST['CusPassword'])) {
 	$pass = validate($_POST['CusPassword']);
 
 	if (empty($uname)) {
-		header("Location: login.php?error= Email is required");
+		header("Location: login.php?error= Email er påkrævet");
 	    exit();
 	}else if(empty($pass)){
-        header("Location: login.php?error=Password is required");
+        header("Location: login.php?error= Kodeord er påkrævet");
 	    exit();
 	}else{
 		$sql = "SELECT * FROM customer WHERE CustomerEmail='$uname' AND CusPassword='$pass'";
@@ -47,3 +47,5 @@ if (isset($_POST['CustomerEmail']) && isset($_POST['CusPassword'])) {
 	header("Location: loginErrormessage.php");
 	exit();
 }
+
+?>
