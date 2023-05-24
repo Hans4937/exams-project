@@ -62,8 +62,10 @@ vertical-align: middle;
 }
 
 .Navigation{
-float: right;
 height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .Navigation a{
@@ -71,7 +73,6 @@ height: 100%;
 display: table;
 float: left;
 padding: 0px 13px;
-
 }
 
 .Navigation a li{
@@ -82,7 +83,6 @@ padding: 0px 13px;
   font-size: 18px;
   font-weight: 400;
   transition: 0.5ms;
-
   }
    
   /* Change color when hover */
@@ -94,7 +94,6 @@ padding: 0px 13px;
 
 /*Kontakt os button*/
 .KontaktOs{
-  margin-top: 20px;
   padding: 10px 20px;
   background-color: #2B3D24;
   border-radius: 8px;
