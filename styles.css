@@ -220,21 +220,6 @@ opacity: .8;
 }
 
 
-.Logout {
-	float: right;
-	background: #555;
-	padding: 10px 15px;
-	color: #fff;
-	border-radius: 5px;
-	margin-right: 10px;
-	border: none;
-	text-decoration: none;
-}
-
-.Logout:hover{
-	opacity: .7;
-}
-
 
 /* product page*/
 .ProductPage {

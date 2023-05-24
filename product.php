@@ -28,7 +28,7 @@
       <ul class="Navigationb2b">
       <a href="produkter.php"><li>Produkter</li></a>
       <a href="brands.php"><li>Brands</li></a>  
-      <a href="login.php"><li>Erhverv</li></a>
+      <a href="logout.php"><li>Log ud</li></a>
       <a href="kontaktOs.php"><li><button class="KontaktOsb2b">Kontakt  os</button></li></a>
       <button class="CartButton">
       <img src="./img/Shoppingcart.png" alt="Shopping Cart">
@@ -256,6 +256,7 @@
     <input type="number" min="1" placeholder="Quantity">
     <button class="AddToCart">Add to Cart</button>
   </div>
+
 <!--
 <h1 id="ShopByEco">Shop Økologi</h1>
 <div class="GridContainerEco">
