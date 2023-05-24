@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-   
+
+<!-- Login form -->
 <div class=LoginContainer>
-    <form class=LoginForm action="login.php" method="post">
+    <form class=LoginForm action="product.php" method="post">
             <h2 class=LoginHeader>Log ind</h2>
 
             <?php if (isset($_GET['error'])) { ?>
@@ -19,15 +20,16 @@
 
     <div class=LoginLabel>
             <label>Email</label>
-            <input class=LoginInput type="text" name="CustEmail" placeholder="eksempel@mail.com"><br>
+            <input class=LoginInput type="text" name="CustomerEmail" placeholder="eksempel@mail.com"><br>
 
             <label>Kodeord</label>
-            <input class=LoginInput type="password" name="Password" placeholder="Kodeord"><br>
+            <input class=LoginInput type="password" name="CusPassword" placeholder="Kodeord"><br>
     </div>
 
             <button class=LoginButton type="submit">Log ind</button>
         </form>
 </div>
+
 
 </body>
 </html>
