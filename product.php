@@ -86,7 +86,7 @@
     <!-- quantity function in Anna Tomater-->
   <input type="number" min="1" placeholder="Quantity">
   <!-- Add to cart for Anna Tomater-->
-  <button>Add to Cart</button>
+  <button class="AddToCart">Add to Cart</button>
 </div>
   <div class="GridItemAllProduct">
     <img src="./img/product/tomataugust.jpeg" alt="August Tomater">

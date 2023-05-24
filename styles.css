@@ -497,6 +497,21 @@ opacity: .8;
 .GridItemAllProduct button {
   background-color: white;
 }
+
+.AddToCart {
+  background-color: #A0C24A !important; /* Green background color */
+  border-style: solid;
+  border: #24262b; 
+  color: black; /* Text color */
+  padding: 10px 10px; /* Add padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as inline-block */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Add cursor style */
+  transition-duration: 0.4s; /* Add transition effect */
+}
+
 /*
 .GridContainerAllProduct .GridItem:nth-child(1) {
   background-image: url(./img/product/annatomatereco.jpeg);
