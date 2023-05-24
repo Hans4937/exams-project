@@ -211,13 +211,14 @@ opacity: .8;
 }
 
 .LoginError{
-background: #F2DEDE;
-border-radius: 5px;
-color: #A94442;
-margin: 20px auto;
-padding: 10px;
-width: 95%;
+  background: #F2DEDE;
+  color: #A94442;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
 }
+
 /* product page*/
 .ProductPage {
   background-color: #a4d792;
@@ -276,9 +277,9 @@ width: 95%;
 }
 
 .LogoContainerb2b {
-  display: flex;
-  align-items: center;
   height: 100%;
+  display: table;
+  float: left;
 }
 
 /* Logo style */
@@ -295,6 +296,8 @@ width: 95%;
 /* Logo style */
 .LogoContainerb2b span {
   font-weight: 800;
+  text-decoration: underline;
+  color: #A0C24A;
 }
 
 .Navigationb2b {
@@ -378,7 +381,7 @@ width: 95%;
 
 .GridContainerProduct {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Three columns of equal width */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* Three columns of equal width */
   grid-gap: 10px; /* Spacing between grid items */
   margin-left: 145px;
   margin-right: 145px;
@@ -387,24 +390,32 @@ width: 95%;
 }
 
 .GridContainerProduct .GridItem:nth-child(1) {
-  background-image: url(img/product/agurker.png);
+  background-image: url(./img/product/agurker.jpg);
   height: 200px;
 }
 
 .GridContainerProduct .GridItem:nth-child(2) {
-  background-image: url(img/product/tomater.png);
+  background-image: url(./img/product/tomater.jpg);
 }
 
 .GridContainerProduct .GridItem:nth-child(3) {
-  background-image: url(img/product/salat.png);
+  background-image: url(./img/product/salat.jpg);
 }
 
 .GridContainerProduct .GridItem:nth-child(4) {
-  background-image: url(img/product/peberfrugt.png);
+  background-image: url(./img/product/peberfrugt.jpg);
 }
 
 .GridContainerProduct .GridItem:nth-child(5) {
-  background-image: url(img/product/konserves.jpeg);
+  background-image: url(./img/product/konserves.jpeg);
+}
+
+.GridContainerProduct .GridItem:nth-child(6) {
+  background-image: url(./img/product/ecology.jpeg);
+}
+
+.GridContainerProduct .GridItem:nth-child(7) {
+  background-image: url(./img/product/alleprodukter.jpg);
 }
 
 
@@ -434,22 +445,14 @@ width: 95%;
   text-shadow: 1px, 1px, 1px black;
 }
 
-.GridItem:nth-child(1),
-.GridItem:nth-child(2),
-.GridItem:nth-child(3),
-.GridItem:nth-child(4),
-.GridItem:nth-child(5) {
-  background-color: white;
-}
-
 .GridContainerBrand .GridItem:nth-child(1) {
-  background-image: url(img/brands/katrineogalfreds.png);
-  height: 500px;
+  background-image: url(./img/brands/katrineogalfreds.png);
+  height: 250px;
 }
 
 .GridContainerBrand .GridItem:nth-child(2) {
-  background-image: url(img/brands/pedersensudvalgte.png);
-  height: 500px;
+  background-image: url(./img/brands/pedersensudvalgte.png);
+  height: 250px;
 }
 
 .ShopByEco {
@@ -469,52 +472,53 @@ width: 95%;
 
 }
 
+/*
 .GridContainerEco .GridItem:nth-child(1) {
-  background-image: url(img/product/annatomatereco.jpeg);
+  background-image: url(./img/product/anatomatereco.jpeg);
   height: 125px;
 }
 
 .GridContainerEco .GridItem:nth-child(2) {
-  background-image: url(img/product/tomataugust.jpeg);
+  background-image: url(./img/product/tomataugust.jpeg);
 }
 
 .GridContainerEco .GridItem:nth-child(3) {
-  background-image: url(img/product/satmmeagurkeco.jpeg);
+  background-image: url(./img/product/satmmeagurkeco.jpeg);
 }
 
 .GridContainerEco .GridItem:nth-child(4) {
-  background-image: url(img/product/rundetomaterøko.jpeg);
+  background-image: url(./img/product/rundetomaterøko.jpeg);
 }
 
 .GridContainerEco .GridItem:nth-child(5) {
-  background-image: url(img/product/sanmarzanoeco.jpeg);
+  background-image: url(./img/product/sanmarzanoeco.jpeg);
 }
 
 .GridContainerEco .GridItem:nth-child(6) {
-  background-image: url(img/product/cherrytomaterpåstilkeco.jpeg);
+  background-image: url(./img/product/cherrytomaterpåstilkeco.jpeg);
 }
 
 .GridContainerEco .GridItem:nth-child(7) {
-  background-image: url(img/product/cherrytomaterloseeco.jpeg);
+  background-image: url(./img/product/cherrytomaterloseeco.jpeg);
   height: 125px;
 }
 
 .GridContainerEco .GridItem:nth-child(8) {
-  background-image: url(img/product/intensitytomatereco.jpeg);
+  background-image: url(./img/product/intensitytomatereco.jpeg);
 }
 
 .GridContainerEco .GridItem:nth-child(9) {
-  background-image: url(img/product/katrineogalfredsagurkereco.jpeg);
+  background-image: url(./img/product/katrineogalfredsagurkereco.jpeg);
 }
 
 .GridContainerEco .GridItem:nth-child(10) {
-  background-image: url(img/product/fravalgtetomatereco.jpeg);
+  background-image: url(./img/product/fravalgtetomatereco.jpeg);
 }
 
 .GridContainerEco .GridItem:nth-child(11) {
-  background-image: url(img/product/fravalgteagurkereco.jpeg);
+  background-image: url(./img/product/fravalgteagurkereco.jpeg);
 }
-
+*/
 
 .ShopAllProducts {
   text-align: center;
@@ -523,7 +527,7 @@ width: 95%;
 
 .GridContainerAllProduct {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;; /* Three columns of equal width */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Three columns of equal width */
   grid-gap: 10px; /* Spacing between grid items */
   margin-left: 145px;
   margin-right: 145px;
@@ -532,131 +536,149 @@ width: 95%;
 
 }
 
+.GridItemAllProduct img {
+  width: 150px; /* Adjust the width as per your preference */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.GridItemAllProduct {
+  background-color: white;
+  padding: 20px;
+}
+
+.GridItemAllProduct h2,
+.GridItemAllProduct p,
+.GridItemAllProduct input[type="number"],
+.GridItemAllProduct button {
+  background-color: white;
+}
+/*
 .GridContainerAllProduct .GridItem:nth-child(1) {
-  background-image: url(img/product/annatomatereco.jpeg);
-height: 125px;
+  background-image: url(./img/product/annatomatereco.jpeg);
+height: 250px;
+width: 200px;
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(2) {
-  background-image: url(img/product/tomataugust.jpeg)
+  background-image: url(./img/product/tomataugust.jpeg)
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(3) {
-  background-image: url(img/product/satmmeagurkeco.jpeg);
+  background-image: url(./img/product/satmmeagurkeco.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(4) {
-  background-image: url(img/product/rundetomater.jpeg);
+  background-image: url(./img/product/rundetomater.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(5) {
-  background-image: url(img/product/sanmarzanoeco.jpeg);
+  background-image: url(./img/product/sanmarzanoeco.jpeg);
 }
 
 .GridContainerAllProduct .GridItem:nth-child(6) {
-  background-image: url(img/product/cherrytomaterpåstilkeco.jpeg);
+  background-image: url(./img/product/cherrytomaterpåstilkeco.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(7) {
-  background-image: url(img/product/cherrytomaterloseeco.jpeg);
+  background-image: url(./img/product/cherrytomaterloseeco.jpeg);
   height: 125px;
 }
 
 
 
 .GridContainerAllProduct .GridItem:nth-child(8) {
-  background-image: url(img/product/intensitytomatereco.jpeg);
+  background-image: url(./img/product/intensitytomatereco.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(9) {
-  background-image: url(img/product/katrineogalfredsagurkereco.jpeg);
+  background-image: url(./img/product/katrineogalfredsagurkereco.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(10) {
-  background-image: url(img/product/fravalgtetomatereco.jpeg);
+  background-image: url(./img/product/fravalgtetomatereco.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(11) {
-  background-image: url(img/product/fravalgteagurkereco.jpeg);
+  background-image: url(./img/product/fravalgteagurkereco.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(12) {
-  background-image: url(img/product/idatomater.jpeg);
+  background-image: url(./img/product/idatomater.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(13) {
-  background-image: url(img/product/rundetomater.jpeg);
+  background-image: url(./img/product/rundetomater.jpeg);
   height: 125px;
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(14) {
-  background-image: url(img/product/blommetomater.jpeg);
+  background-image: url(./img/product/blommetomater.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(15) {
-  background-image: url(img/product/sanmarzanotomater.jpeg);
+  background-image: url(./img/product/sanmarzanotomater.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(16) {
-  background-image: url(img/product/peberfrugtproduct.jpeg);
+  background-image: url(./img/product/peberfrugtproduct.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(17) {
-  background-image: url(img/product/palermosnackpeber.jpeg);
+  background-image: url(./img/product/palermosnackpeber.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(18) {
-  background-image: url(img/product/ketchup.jpeg);
+  background-image: url(./img/product/ketchup.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(19) {
-  background-image: url(img/product/pastasauce.jpeg);
+  background-image: url(./img/product/pastasauce.jpeg);
   height: 125px;
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(20) {
-  background-image: url(img/product/snackmix.jpeg);
+  background-image: url(./img/product/snackmix.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(21) {
-  background-image: url(img/product/fravalgtetomater.jpeg);
+  background-image: url(./img/product/fravalgtetomater.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(22) {
-  background-image: url(img/product/fravalgteagurker.jpeg);
+  background-image: url(./img/product/fravalgteagurker.jpeg);
 }
 
 .GridContainerAllProduct .GridItem:nth-child(23) {
-  background-image: url(img/product/katrineogalfredsagurkereco.jpeg);
+  background-image: url(./img/product/katrineogalfredsagurkereco.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(24) {
-  background-image: url(img/product/katrineogalfredsclassictomater.jpeg);
+  background-image: url(./img/product/katrineogalfredsclassictomater.jpeg);
 }
 
 
 .GridContainerAllProduct .GridItem:nth-child(25) {
-  background-image: url(img/product/katrineogalfredspeberfrugter.jpeg);
+  background-image: url(./img/product/katrineogalfredspeberfrugter.jpeg);
   height: 125px;
 }
-
+*/
