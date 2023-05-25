@@ -51,6 +51,7 @@ display: table-cell;
 vertical-align: middle;
 }
 .LogoContainer h1{
+  padding-left: 10px;
   font-size: 25px;
   font-weight: 500;
 }
@@ -62,8 +63,10 @@ vertical-align: middle;
 }
 
 .Navigation{
-float: right;
 height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .Navigation a{
@@ -71,7 +74,6 @@ height: 100%;
 display: table;
 float: left;
 padding: 0px 13px;
-
 }
 
 .Navigation a li{
@@ -82,7 +84,6 @@ padding: 0px 13px;
   font-size: 18px;
   font-weight: 400;
   transition: 0.5ms;
-
   }
    
   /* Change color when hover */
@@ -94,7 +95,6 @@ padding: 0px 13px;
 
 /*Kontakt os button*/
 .KontaktOs{
-  margin-top: 20px;
   padding: 10px 20px;
   background-color: #2B3D24;
   border-radius: 8px;
@@ -109,54 +109,162 @@ padding: 0px 13px;
   scale: 110%;
 }
 
-.Container1{
-  max-width: 80%;
-  margin: auto;
+.Container{
+ height: 750px;
+ background-image: url("img/homepage.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+.Box{
+  padding: 3%;
+  max-width: 30%;
+  background-color: #F5F8F3;
+  position: relative;
+  display: block;
+  top: 50%;
+  left: 15%;
+  height: 37.8% ;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.Box h2{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color:#424141 ;
+  margin-bottom: 20px;
 }
 
-.Row{
-  display: flex;
-  flex-wrap: wrap;
+.Box p{
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  color:#424141 ;
+  line-height: 2;
+}
+
+.FooterContainer{
+  width: 80%;
+  height: 450px;
+  margin: auto;;
+}
+.FooterHeader{
+  width: 150%;
+  padding-bottom: 50px;
+}
+
+.FooterHeader img{
+width: max-content;
+}
+
+.FooterHeader a{
+  display: table-cell;
+  vertical-align: middle;
+  color: #f5f5f5;
 }
 
 footer{
-  background-color: #24262b;
-  padding: 70px 0;
+  background-color: #2B3D24;
+  padding: 70px 10% 0 10%;
+
 }
 
 .FooterColumn{
-  width: 25%;
-  line-height: 1.5;
-}
-.FooterColumn h4{
-  font-size: 18px;
+  width: 100%;
+  line-height: 1;
   color: #f5f5f5;
   margin-bottom: 30px;
-  font-weight: 800;
-  
-
+  font-weight: 300;
 }
+
+
 /*Margin, except last element*/
 .FooterColumn ul li:not(:last-child){
   margin-bottom: 10px;
 }
-.FooterColumn ul li{
-  font-size: 16px;
+
+.Row{
+  display: flex;
   color: #f5f5f5;
-  font-weight: 300;
-  display: block;
+  float: left;
 }
 
-.FooterColumn ul li a{
-  font-size: 16px;
-  color: #f5f5f5;
-  font-weight: 300;
-  display: block;
+.Row h4{
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.FooterColumn ul li a:hover{
-  scale: 110%;
+.PedersensUdvalgte{
+  padding-right: 20px;
 }
+
+.IconButton {
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 50%;
+  border-style: none;
+}
+
+
+.Main{
+  width: 50%;
+  float: left;
+}
+.Main1{
+  width: 50%;
+  float: right;
+}
+
+.Column{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    
+}
+
+.Column a{
+  color: #f5f5f5;
+  font-size: 22px;
+}
+
+.Menu{
+  width: 380px;
+  height: 400px;
+  float: right;
+}
+
+/*Styling for the contact form*/
+.ContactUsForm{
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactUsForm>*{
+  flex: 1 1;
+}
+
+.MessageFormBox{
+
+}
+#ContactUsFormSubmit{
+  padding: 10px;
+  margin-top: 1px;
+  background-color: #A0C24A;
+  border-radius: 8px;
+  height: 40px;
+  border-style: none;
+  font-family: 'Roboto';
+  color: #424141;
+  cursor: pointer;
+  font-size: 17px;  
+}
+
+
 
 /* Login */
 .LoginContainer{
@@ -223,7 +331,7 @@ opacity: .8;
 
 /* product page*/
 .ProductPage {
-  background-color: white;
+  background-color: #F5F8F3;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -336,7 +444,7 @@ opacity: .8;
   border-radius: 8px;
   height: 40px;
   border-style: none;
-  font-family: "roboto";
+  font-family: 'Roboto';
   color: #424141;
   cursor: pointer;
   font-size: 16px;
@@ -463,12 +571,6 @@ opacity: .8;
   text-shadow: 1px, 1px, 1px black;
 }
 
-/* ShopAllProduct styling of text */
-.ShopAllProduct {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 /* ShopAllProduct styling of grids */
 .GridContainerAllProduct {
   display: grid;
@@ -523,13 +625,35 @@ opacity: .8;
   transition-duration: 0.4s; /* Add transition effect */
 }
 
-  /* Style the quantity input field */
-  .GridItemAllProduct input[type="number"] {
-    width: 60px; /* Adjust the width as needed */
-    padding: 5px; /* Add padding */
-    border: 1px solid #ccc; /* Add border */
-    border-radius: 4px; /* Add border-radius */
-  }
+/* Style the quantity input field */
+.GridItemAllProduct input[type="number"] {
+  width: 60px; /* Adjust the width as needed */
+  padding: 5px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Add border-radius */
+}
+
+/* all header texts */
+#ShopAllProduct {
+  text-align: center; /* Center align the text */
+  padding: 10px; /* Add some padding around the text */
+  width: fit-content; /* Adjust the width to fit the content */
+  margin: 0 auto; /* Center the element horizontally */
+}
+
+#ShopByBrand {
+  text-align: center; /* Center align the text */
+  padding: 10px; /* Add some padding around the text */
+  width: fit-content; /* Adjust the width to fit the content */
+  margin: 0 auto; /* Center the element horizontally */
+}
+
+#ShopByProduct {
+  text-align: center; /* Center align the text */
+  padding: 10px; /* Add some padding around the text */
+  width: fit-content; /* Adjust the width to fit the content */
+  margin: 0 auto; /* Center the element horizontally */
+}
 
 /*
 .GridContainerAllProduct .GridItem:nth-child(1) {

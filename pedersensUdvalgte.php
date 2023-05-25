@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produkter</title>
+    <title>Product Page</title>
     <!-- linking script and stylesheet -->
   <script src="./scripts.js"></script>
   <link rel="stylesheet" href="./styles.css"></link>
@@ -72,8 +72,8 @@
   </button>
 </div>
 
-<!-- Code for ShopAllProducts-->
-<h1 id="ShopAllProduct">Shop all Products</h1>
+<!-- Code for ShopPedersens Udvalgte-->
+<h1 id="ShopAllProduct">Shop Pedersens Udvalgte</h1>
 <!-- Defining the GridContainerAllProduct for ShopAllProducts-->
 <div class="GridContainerAllProduct">
   <!-- Defining the GridItemAllProduct for ShopAllProducts-->
@@ -133,6 +133,13 @@
   <div class="GridItemAllProduct">
     <img src="./img/product/intensitytomatereco.jpeg" alt="Intensity Tomater">
     <h2>Intensity Tomater</h2>
+    <p>Description of Anna Tomater.</p>
+    <input type="number" min="1" placeholder="Quantity">
+    <button class="AddToCart">Add to Cart</button>
+  </div>
+  <div class="GridItemAllProduct">
+    <img src="./img/product/katrineogalfredsagurkereco.jpeg" alt="Katrine og Alfreds Agurker">
+    <h2>Katrine og Alfreds Agurker</h2>
     <p>Description of Anna Tomater.</p>
     <input type="number" min="1" placeholder="Quantity">
     <button class="AddToCart">Add to Cart</button>
@@ -228,69 +235,3 @@
     <input type="number" min="1" placeholder="Quantity">
     <button class="AddToCart">Add to Cart</button>
   </div>
-  <div class="GridItemAllProduct">
-    <img src="./img/product/katrineogalfredsagurkereco.jpeg" alt="Katriene og Alfreds Agurker">
-    <h2>Katriene og Alfreds Agurker</h2>
-    <p>Description of Anna Tomater.</p>
-    <input type="number" min="1" placeholder="Quantity">
-    <button class="AddToCart">Add to Cart</button>
-  </div>
-  <div class="GridItemAllProduct">
-    <img src="./img/product/katrineogalfredsclassictomater.jpeg" alt="Katriene og Alfreds Classic Tomater">
-    <h2>Katriene og Alfreds Classic Tomater</h2>
-    <p>Description of Anna Tomater.</p>
-    <input type="number" min="1" placeholder="Quantity">
-    <button class="AddToCart">Add to Cart</button>
-  </div>
-  <div class="GridItemAllProduct">
-    <img src="./img/product/katrineogalfredspeberfrugter.jpeg" alt="Katriene og Alfreds Peberfrugt">
-    <h2>Katriene og Alfreds Peberfrugt</h2>
-    <p>Description of Anna Tomater.</p>
-    <input type="number" min="1" placeholder="Quantity">
-    <button class="AddToCart">Add to Cart</button>
-  </div>
-
-<!--
-<h1 id="ShopByEco">Shop Økologi</h1>
-<div class="GridContainerEco">
-  <div class="GridItem">
-    <h2>Anna Tomater</h2>
-  </div>
-  <div class="GridItem">
-    <h2>August Tomater</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Stammeagurk</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Runde Tomater</h2>
-  </div>
-  <div class="GridItem">
-    <h2>San Marzano</h2>
-  </div> 
-  <div class="GridItem">
-    <h2>Cherry Tomater på stilk</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Cherry Tomater løse</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Intensity Tomater</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Katrine og Alfreds Agurker</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Fravalgte Tomater Øko</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Fravalgte Agurker Øko</h2>
-  </div>
-</div>
--->
-
-</div>
-
-</body>
-</html>
-
