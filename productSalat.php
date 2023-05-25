@@ -71,3 +71,14 @@
   <h2>Alle produkter</h2>
   </button>
 </div>
+
+<!-- Code for ShopAllProducts-->
+<h1 id="ShopAllProduct">Shop Salat</h1>
+</div>
+<!-- Defining the GridContainerAllProduct for Salat-->
+<div class="GridContainerAllProduct">
+  <!-- Defining the GridItemAllProduct for ShopAllProducts-->
+<div class="GridItemAllProduct">
+  <!-- Adding the picture for salat-->
+  <img src="./img/kommer-snart.png" alt="Kommer snart">
+</div>
