@@ -233,8 +233,36 @@ footer{
   float: right;
 }
 
+/*Styling for the contact form*/
+.ContactUsForm{
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  align-items: center;
+  justify-content: center;
+}
 
+.ContactUsForm>*{
+  flex: 1 1;
+}
 
+.MessageFormBox{
+
+}
+#ContactUsFormSubmit{
+  padding: 10px;
+  margin-top: 1px;
+  background-color: #A0C24A;
+  border-radius: 8px;
+  height: 40px;
+  border-style: none;
+  font-family: 'Roboto';
+  color: #424141;
+  cursor: pointer;
+  font-size: 17px;  
+}
 
 
 
