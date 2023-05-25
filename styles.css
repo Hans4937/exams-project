@@ -51,6 +51,7 @@ display: table-cell;
 vertical-align: middle;
 }
 .LogoContainer h1{
+  padding-left: 10px;
   font-size: 25px;
   font-weight: 500;
 }
@@ -62,8 +63,10 @@ vertical-align: middle;
 }
 
 .Navigation{
-float: right;
 height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .Navigation a{
@@ -71,7 +74,6 @@ height: 100%;
 display: table;
 float: left;
 padding: 0px 13px;
-
 }
 
 .Navigation a li{
@@ -82,7 +84,6 @@ padding: 0px 13px;
   font-size: 18px;
   font-weight: 400;
   transition: 0.5ms;
-
   }
    
   /* Change color when hover */
@@ -94,7 +95,6 @@ padding: 0px 13px;
 
 /*Kontakt os button*/
 .KontaktOs{
-  margin-top: 20px;
   padding: 10px 20px;
   background-color: #2B3D24;
   border-radius: 8px;
@@ -109,54 +109,136 @@ padding: 0px 13px;
   scale: 110%;
 }
 
-.Container1{
-  max-width: 80%;
-  margin: auto;
+.Container{
+ height: 750px;
+ background-image: url("img/homepage.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+.Box{
+  padding: 3%;
+  max-width: 30%;
+  background-color: #F5F8F3;
+  position: relative;
+  display: block;
+  top: 50%;
+  left: 15%;
+  height: 37.8% ;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.Box h2{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color:#424141 ;
+  margin-bottom: 20px;
 }
 
-.Row{
-  display: flex;
-  flex-wrap: wrap;
+.Box p{
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  color:#424141 ;
+  line-height: 2;
+}
+
+.Container1{
+  width: 80%;
+  height: 450px;
+  margin: auto;
+}
+.FooterHeader{
+  width: 100%;
+  padding-bottom: 50px;
+
+}
+
+.FooterHeader img{
+  height: 65px;
+  width: 65px;
+}
+
+.FooterHeader a{
+  display: table-cell;
+  vertical-align: middle;
+  color: #f5f5f5;
 }
 
 footer{
-  background-color: #24262b;
-  padding: 70px 0;
+  background-color: #2B3D24;
+  padding: 70px 10% 0 10%;
+
 }
 
 .FooterColumn{
-  width: 25%;
-  line-height: 1.5;
-}
-.FooterColumn h4{
-  font-size: 18px;
+  width: 100%;
+  line-height: 1;
   color: #f5f5f5;
   margin-bottom: 30px;
-  font-weight: 800;
-  
-
+  font-weight: 300;
 }
+
+
 /*Margin, except last element*/
 .FooterColumn ul li:not(:last-child){
   margin-bottom: 10px;
 }
-.FooterColumn ul li{
-  font-size: 16px;
+
+.Row{
+  display: flex;
   color: #f5f5f5;
-  font-weight: 300;
-  display: block;
+  float: left;
 }
 
-.FooterColumn ul li a{
-  font-size: 16px;
-  color: #f5f5f5;
-  font-weight: 300;
-  display: block;
+.Row h4{
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.FooterColumn ul li a:hover{
-  scale: 110%;
+.PedersensUdvalgte{
+  padding-right: 20px;
 }
+
+.IconButton {
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 50%;
+  border-style: none;
+}
+
+
+.Main{
+  width: 50%;
+  float: left;
+}
+.Main1{
+  width: 50%;
+  float: right;
+}
+
+.Column{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    
+}
+
+.Column a{
+  color: #f5f5f5;
+  font-size: 22px;
+}
+
+.Menu{
+  width: 380px;
+  height: 400px;
+  float: right;
+}
+
+
+
+
+
 
 /* Login */
 .LoginContainer{
