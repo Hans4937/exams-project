@@ -26,7 +26,7 @@
         <div class="Main">
             <div class="FooterColumn">
             <ul>
-                <li>Assensvej 217, 5250 Odense SV,Danmark</li>
+                <li>Assensvej 217, 5250 Odense SV, Danmark</li>
                 <li>CVR-nr. 29 63 45 21</li>
                 <li><button class="IconButton" href=""><i class="fa-brands fa-linkedin fa-xl"></i></button></li> 
             </ul>

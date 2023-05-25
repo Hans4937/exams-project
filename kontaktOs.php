@@ -13,17 +13,26 @@
 <body>
   <?php include "./navbar.php"; ?>
 
-  <form class="ContactUsForm"  method="$_post">
-    <label for="email">Email:</label>
-    <input type="text" id="CustomerEmail" name="Email" value="test@test.com">
+  <div class="ContactUsFormContainer">
+    <form class="ContactUsForm"  method="$_post">
+      <div class="ContactUsFormRow">
+        <label class="ContactUsFormLabel" for="email">Email:</label>
+        <input class="ContactUsFormInput" type="text" id="CustomerEmail" name="Email" value="test@test.com" onfocus="clearPlaceholder(this)">
+      </div>
 
-    <label for="phone">Phone:</label>
-    <input type="text" id="PhoneNumber" name="PhoneNumber" value="12345678">
-    <label for="Message">Besked:</label>
-    <input type="text" id="Message" name="Message" value="Din besked her">
-    <input id="ContactUsFormSubmit" type="submit" value="Submit">
-  </form> 
+      <div class="ContactUsFormRow">
+        <label class="ContactUsFormLabel" for="phone">Telefon:</label>
+        <input class="ContactUsFormInput" type="text" id="PhoneNumber" name="PhoneNumber" value="12345678" onfocus="clearPlaceholder(this)">
+      </div>
 
+      <div class="ContactUsFormRow">
+        <label class="ContactUsFormLabel" for="Message">Besked:</label>
+        <textarea class="ContactUsFormInput" id="ContactUsMessage" name="CustomerMessage" rows="15" cols="50" onfocus="clearPlaceholder(this)"> Din besked her</textarea>
+      </div>
+
+      <input id="ContactUsFormSubmit" type="submit" value="Submit">
+    </form> 
+  </div>
 
 
 
