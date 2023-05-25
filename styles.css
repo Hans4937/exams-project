@@ -223,7 +223,7 @@ opacity: .8;
 
 /* product page*/
 .ProductPage {
-  background-color: white;
+  background-color: #F5F8F3;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -336,7 +336,7 @@ opacity: .8;
   border-radius: 8px;
   height: 40px;
   border-style: none;
-  font-family: "roboto";
+  font-family: 'Roboto';
   color: #424141;
   cursor: pointer;
   font-size: 16px;
@@ -463,12 +463,6 @@ opacity: .8;
   text-shadow: 1px, 1px, 1px black;
 }
 
-/* ShopAllProduct styling of text */
-.ShopAllProduct {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 /* ShopAllProduct styling of grids */
 .GridContainerAllProduct {
   display: grid;
@@ -523,13 +517,35 @@ opacity: .8;
   transition-duration: 0.4s; /* Add transition effect */
 }
 
-  /* Style the quantity input field */
-  .GridItemAllProduct input[type="number"] {
-    width: 60px; /* Adjust the width as needed */
-    padding: 5px; /* Add padding */
-    border: 1px solid #ccc; /* Add border */
-    border-radius: 4px; /* Add border-radius */
-  }
+/* Style the quantity input field */
+.GridItemAllProduct input[type="number"] {
+  width: 60px; /* Adjust the width as needed */
+  padding: 5px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Add border-radius */
+}
+
+/* all header texts */
+#ShopAllProduct {
+  text-align: center; /* Center align the text */
+  padding: 10px; /* Add some padding around the text */
+  width: fit-content; /* Adjust the width to fit the content */
+  margin: 0 auto; /* Center the element horizontally */
+}
+
+#ShopByBrand {
+  text-align: center; /* Center align the text */
+  padding: 10px; /* Add some padding around the text */
+  width: fit-content; /* Adjust the width to fit the content */
+  margin: 0 auto; /* Center the element horizontally */
+}
+
+#ShopByProduct {
+  text-align: center; /* Center align the text */
+  padding: 10px; /* Add some padding around the text */
+  width: fit-content; /* Adjust the width to fit the content */
+  margin: 0 auto; /* Center the element horizontally */
+}
 
 /*
 .GridContainerAllProduct .GridItem:nth-child(1) {
