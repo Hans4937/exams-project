@@ -17,10 +17,10 @@
 </head>
 <body>
 <footer>
-    <div class="Container1">
+    <div class="FooterContainer">
        
         <div class="FooterHeader">
-             <a href="index.php"><img class="Logo" src="./img/LogoNordicGreens.ai" alt="sa"></a>
+             <a href="index.php"><img class="Logo" src="./img/LogoNordicGreens2.png" alt="sa"></a>
         </div>
        
         <div class="Main">

@@ -143,20 +143,18 @@ padding: 0px 13px;
   line-height: 2;
 }
 
-.Container1{
+.FooterContainer{
   width: 80%;
   height: 450px;
-  margin: auto;
+  margin: auto;;
 }
 .FooterHeader{
-  width: 100%;
+  width: 150%;
   padding-bottom: 50px;
-
 }
 
 .FooterHeader img{
-  height: 65px;
-  width: 65px;
+width: max-content;
 }
 
 .FooterHeader a{
