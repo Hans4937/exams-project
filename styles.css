@@ -145,7 +145,7 @@ padding: 0px 13px;
 
 .Container1{
   width: 80%;
-  height: 500px;
+  height: 450px;
   margin: auto;
 }
 .FooterHeader{
@@ -177,18 +177,36 @@ footer{
   color: #f5f5f5;
   margin-bottom: 30px;
   font-weight: 300;
-  background-color: purple;
 }
 
-/*Specific margin for last element in li*/
-.FooterColumn ul li:last-child{
-  margin-top: 20px;
-}
 
 /*Margin, except last element*/
 .FooterColumn ul li:not(:last-child){
   margin-bottom: 10px;
 }
+
+.Row{
+  display: flex;
+  color: #f5f5f5;
+  float: left;
+}
+
+.Row h4{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.PedersensUdvalgte{
+  padding-right: 20px;
+}
+
+.IconButton {
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 50%;
+  border-style: none;
+}
+
 
 .Main{
   width: 50%;
@@ -203,25 +221,18 @@ footer{
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
+    
 }
 
-.Row{
-  display: flex;
-  font-size: 16px;
+.Column a{
   color: #f5f5f5;
-  font-weight: 300;
-  float: left;
-  background-color: orange;
-}
-
-.PedersUdvalgte{
-  padding-right: 20px;
+  font-size: 22px;
 }
 
 .Menu{
-  width: 300px;
-  background-color: yellow;
-  float: right;  
+  width: 380px;
+  height: 400px;
+  float: right;
 }
 
 
