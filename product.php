@@ -76,6 +76,7 @@
 <h1 id="ShopAllProduct">Shop all Products</h1>
 <!-- Defining the GridContainerAllProduct for ShopAllProducts-->
 <div class="GridContainerAllProduct">
+  
   <!-- Defining the GridItemAllProduct for ShopAllProducts-->
 <div class="GridItemAllProduct">
   <!-- Adding the picture for Anna Tomater-->

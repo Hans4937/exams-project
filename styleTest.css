@@ -2,7 +2,7 @@ body {
 	font-family: Arial;
 	color: #211a1a;
 	font-size: 0.9em;
-	background-color: aqua;
+	background-color: lavender;
 }
 
 #shopping-cart {
@@ -15,7 +15,6 @@ body {
 
 #shopping-cart table {
 	width: 100%;
-	background-color: #F0F0F0;
 }
 
 #shopping-cart table td {
@@ -38,6 +37,7 @@ body {
 	border-radius: 3px;
 	margin: 10px 0px;
 }
+
 
 .btnAddAction {
     padding: 5px 10px;
