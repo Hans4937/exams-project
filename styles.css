@@ -74,6 +74,8 @@ height: 100%;
 display: table;
 float: left;
 padding: 0px 13px;
+color: inherit;
+text-decoration: none;
 }
 
 .Navigation a li{
@@ -234,32 +236,48 @@ footer{
 }
 
 /*Styling for the contact form*/
+.ContactUsFormContainer{
+  margin-left: 33.33%;
+}
 .ContactUsForm{
-  background-color: aquamarine;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  
-  align-items: center;
-  justify-content: center;
+  gap: 20px;
+  max-width: 50%;
 }
 
-.ContactUsForm>*{
-  flex: 1 1;
+
+#ContactUsMessage{
+  resize: vertical;
+  height: auto;
 }
 
-.MessageFormBox{
-
+.ContactUsFormLabel{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
+
+.ContactUsFormInput{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
+.ContactUsFormRow{
+  display: flex;
+  flex-direction: column;
+}
+
+
 #ContactUsFormSubmit{
   padding: 10px;
-  margin-top: 1px;
-  background-color: #A0C24A;
+  margin-top: 1em;
+  margin-bottom: 5em;
+  background-color: #2b3d24;
   border-radius: 8px;
   height: 40px;
   border-style: none;
   font-family: 'Roboto';
-  color: #424141;
+  color: white;
   cursor: pointer;
   font-size: 17px;  
 }

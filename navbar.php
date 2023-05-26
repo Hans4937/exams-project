@@ -23,15 +23,15 @@
 
       <!-- Navigation inside InnerHeader -->
       <ul class="Navigation">
-        <a href="produkter.php"><li>Produkter</li></a>
-        <a href="brands.php"><li>Brands</li></a>  
-        <a href="madspild.php"><li>Madspild</li></a>
-        <a href="miljoeCSR.php"><li>Miljø & CSR</li></a>
-        <a href="omOs.php"><li>Om os</li></a>
-        <a href="opskrifter.php"><li>Opskrifter</li></a>
-        <a href="jobs.php"><li>Jobs</li></a>
-        <a href="login.php"><li>Erhverv</li></a>
-        <button class="KontaktOs" href="kontaktOs.php">Kontakt os</button>
+        <li><a href="produkter.php">Produkter</a></li>
+        <li><a href="brands.php">Brands</a></li>  
+        <li><a href="madspild.php">Madspild</a></li>
+        <li><a href="miljoeCSR.php">Miljø & CSR</a></li>
+        <li><a href="omOs.php">Om os</a></li>
+        <li><a href="opskrifter.php">Opskrifter</a></li>
+        <li><a href="jobs.php">Jobs</a></li>
+        <li><a href="login.php">Erhverv</a></li>
+        <li class="KontaktOs"><a href="kontaktOs.php">Kontakt os</a></li>
       </ul>
     </div>
   </div>
