@@ -30,8 +30,8 @@
       <a href="brands.php"><li>Brands</li></a>  
       <a href="logout.php"><li>Log ud</li></a>
       <a href="kontaktOs.php"><li><button class="KontaktOsb2b">Kontakt  os</button></li></a>
-      <button class="CartButton">
-      <img src="./img/Shoppingcart.png" alt="Shopping Cart">
+      <button class="CartButton" onclick="redirectToPage('/shoppingCart.php')">
+      <img src="./img/Shoppingcart.png" alt="Shopping Cart"> 
       </button>
     </ul>
   </div>
