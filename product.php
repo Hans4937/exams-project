@@ -11,28 +11,28 @@
 </head>
 <body class="ProductPage">
 
+
 <!-- Header -->
-<div class="Headerb2b">
+<div class="Header">
   <!-- Div inside header -->
-  <div class="InnerHeaderb2b">
+  <div class="InnerHeader">
     <!-- Logo in InnerHeader --> 
-    <div class="LogoContainerb2b">
-      <a href="index.php"><img class="Logo" src="./img/Logo.png" alt="sa"> <h1>Nordic <span>Greens</span></h1></a>
+    <div class="LogoContainer"> 
+      <a href="index.php"><img class="Logo" src="./img/Logo.png" alt="sa"></a>
+      <a href="index.php"><h1>Nordic Greens</h1></a>
     </div>
-    <!-- Search bar -->
-    <div class="SearchBar">
-      <input type="text" placeholder="Search..." />
-      <button type="submit">Search</button>
-    </div>
+
     <!-- Navigation inside InnerHeader -->
-      <ul class="Navigationb2b">
-      <a href="produkter.php"><li>Produkter</li></a>
-      <a href="brands.php"><li>Brands</li></a>  
-      <a href="logout.php"><li>Log ud</li></a>
-      <a href="kontaktOs.php"><li><button class="KontaktOsb2b">Kontakt  os</button></li></a>
-      <button class="CartButton" onclick="redirectToPage('/shoppingCart.php')">
-      <img src="./img/Shoppingcart.png" alt="Shopping Cart"> 
-      </button>
+    <ul class="Navigation">
+      <li class="SearchBar">
+        <form>
+          <input type="text" placeholder="Søg....">
+          <button type="submit">Søg</button>
+        </form>
+      </li>
+      <li class="LogOut"><a href="logout.php">Log Ud</a></li>
+      <li class="KontaktOs"><a href="kontaktOs.php">Kontakt Os</a></li>
+      <li class="ShoppingCart"><a href="ShoppingCart.php"><img src="./img/Shoppingcart.png" alt="Kurv"></a></li>
     </ul>
   </div>
 </div>
@@ -250,47 +250,9 @@
     <input type="number" min="1" placeholder="Quantity">
     <button class="AddToCart">Add to Cart</button>
   </div>
-
-<!--
-<h1 id="ShopByEco">Shop Økologi</h1>
-<div class="GridContainerEco">
-  <div class="GridItem">
-    <h2>Anna Tomater</h2>
-  </div>
-  <div class="GridItem">
-    <h2>August Tomater</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Stammeagurk</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Runde Tomater</h2>
-  </div>
-  <div class="GridItem">
-    <h2>San Marzano</h2>
-  </div> 
-  <div class="GridItem">
-    <h2>Cherry Tomater på stilk</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Cherry Tomater løse</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Intensity Tomater</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Katrine og Alfreds Agurker</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Fravalgte Tomater Øko</h2>
-  </div>
-  <div class="GridItem">
-    <h2>Fravalgte Agurker Øko</h2>
-  </div>
 </div>
--->
 
-</div>
+<?php include "./footer.php"?>
 
 </body>
 </html>

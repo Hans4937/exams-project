@@ -12,27 +12,26 @@
 <body class="ProductPage">
 
 <!-- Header -->
-<div class="Headerb2b">
+<div class="Header">
   <!-- Div inside header -->
-  <div class="InnerHeaderb2b">
+  <div class="InnerHeader">
     <!-- Logo in InnerHeader --> 
-    <div class="LogoContainerb2b">
-      <a href="index.php"><img class="Logo" src="./img/Logo.png" alt="sa"> <h1>Nordic <span>Greens</span></h1></a>
+    <div class="LogoContainer"> 
+      <a href="index.php"><img class="Logo" src="./img/Logo.png" alt="sa"></a>
+      <a href="index.php"><h1>Nordic Greens</h1></a>
     </div>
-    <!-- Search bar -->
-    <div class="SearchBar">
-      <input type="text" placeholder="Search..." />
-      <button type="submit">Search</button>
-    </div>
+
     <!-- Navigation inside InnerHeader -->
-      <ul class="Navigationb2b">
-      <a href="produkter.php"><li>Produkter</li></a>
-      <a href="brands.php"><li>Brands</li></a>  
-      <a href="logout.php"><li>Log ud</li></a>
-      <a href="kontaktOs.php"><li><button class="KontaktOsb2b">Kontakt  os</button></li></a>
-      <button class="CartButton">
-      <img src="./img/Shoppingcart.png" alt="Shopping Cart">
-      </button>
+    <ul class="Navigation">
+      <li class="SearchBar">
+        <form>
+          <input type="text" placeholder="Søg....">
+          <button type="submit">Søg</button>
+        </form>
+      </li>
+      <li class="LogOut"><a href="logout.php">Log Ud</a></li>
+      <li class="KontaktOs"><a href="kontaktOs.php">Kontakt Os</a></li>
+      <li class="ShoppingCart"><a href="ShoppingCart.php"><img src="./img/Shoppingcart.png" alt="Kurv"></a></li>
     </ul>
   </div>
 </div>
@@ -108,3 +107,9 @@
     <input type="number" min="1" placeholder="Quantity">
     <button class="AddToCart">Add to Cart</button>
   </div>
+</div>
+
+<?php include "./footer.php"?>
+
+</body>
+</html>
