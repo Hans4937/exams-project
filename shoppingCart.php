@@ -8,6 +8,8 @@
 </head>
 <body>
 
+<!-- Test på indkøbskurv pt. 1-->
+
 
 <!-- Header -->
 <div class="Headerb2b">

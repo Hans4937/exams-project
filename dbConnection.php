@@ -8,6 +8,7 @@
 </head>
 <body>
 
+<!-- Test af shoppingkurv pt. 1-->
 
 <?php
 /*

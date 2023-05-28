@@ -9,7 +9,7 @@
 </head>
 <body>
     
-<!-- Dette er en test på shopping kurven -->
+<!-- Dette er en test på shopping kurven pt. 2 -->
 
 
 <?php 

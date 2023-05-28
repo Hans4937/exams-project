@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<!-- Dette er en test på shopping kurven -->
+<!-- Dette er en test på shopping kurven pt. 2 -->
 
 <?php
     $con = mysqli_connect("localhost","root","root","nordicgreens");
