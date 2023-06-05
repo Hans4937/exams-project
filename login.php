@@ -15,7 +15,9 @@
             <h2 class=LoginHeader>Log ind</h2>
 
             <?php if (isset($_GET['error'])) { ?>
-                <p class="LoginError"><?php echo $_GET['error']; ?></p>
+                <p class="LoginError">
+                    <?php echo $_GET['error'];?>
+                </p>
             <?php } ?>
 
     <div class=LoginLabel>

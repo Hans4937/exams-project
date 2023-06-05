@@ -20,7 +20,7 @@
     <div class="FooterContainer">
        
         <div class="FooterHeader">
-             <a href="index.php"><img class="Logo" src="./img/LogoNordicGreens2.png" alt="sa"></a>
+             <a href="index.php"><img class="Logo" src="./img/LogoNordicGreens2.png" alt="NGLogo"></a>
         </div>
        
         <div class="Main">

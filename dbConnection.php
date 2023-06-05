@@ -78,10 +78,11 @@ echo "Connected successfully";
 
 
 <?php
-$server = "localhost";
-$user = "root";
-$password = "root";
-$database = "nordicgreens";
+    //Set the database variables
+    $server = "localhost";
+    $user = "root";
+    $password = "root";
+    $database = "nordicgreens";
 
     // Connect to the database
     $conn = mysqli_connect($server, $user, $password, $database);
@@ -89,6 +90,7 @@ $database = "nordicgreens";
         die("Connection failed: " . mysqli_connect_error());
     }
 
+    //Get the products from the database
     function runQuery($query) {
         global $conn;
         $result = mysqli_query($conn, $query);
@@ -102,6 +104,7 @@ $database = "nordicgreens";
         return $resultset;
     }
 
+    //Get products from the database
     function numRows($query) {
         global $conn;
         $result = mysqli_query($conn, $query);
@@ -111,8 +114,6 @@ $database = "nordicgreens";
         $rowcount = mysqli_num_rows($result);
         return $rowcount;
     }
-
-
 ?>
 
 

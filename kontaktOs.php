@@ -13,13 +13,13 @@
 <body>
   <?php include "./navbar.php"; ?>
 
+  
   <div class="ContactUsFormContainer">
     <form class="ContactUsForm"  method="$_post">
       <div class="ContactUsFormRow">
         <label class="ContactUsFormLabel" for="email">Email:</label>
         <input class="ContactUsFormInput" type="text" id="CustomerEmail" name="Email" value="test@test.com" onfocus="clearPlaceholder(this)">
       </div>
-
       <div class="ContactUsFormRow">
         <label class="ContactUsFormLabel" for="phone">Telefon:</label>
         <input class="ContactUsFormInput" type="text" id="PhoneNumber" name="PhoneNumber" value="12345678" onfocus="clearPlaceholder(this)">

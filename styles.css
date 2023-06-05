@@ -294,16 +294,18 @@ footer{
 }
 
 /*Styling for the contact form*/
+/*Make the contact us form offcenter 33% left*/
 .ContactUsFormContainer{
   margin-left: 33.33%;
 }
+
+/*Make the boxes flex in a column and make them pretty*/
 .ContactUsForm{
   display: flex;
   flex-direction: column;
   gap: 20px;
   max-width: 50%;
 }
-
 
 #ContactUsMessage{
   resize: vertical;
@@ -320,11 +322,11 @@ footer{
   border-radius: 4px;
   padding: 8px;
 }
+
 .ContactUsFormRow{
   display: flex;
   flex-direction: column;
 }
-
 
 #ContactUsFormSubmit{
   padding: 10px;
@@ -341,8 +343,7 @@ footer{
 }
 
 
-
-/* Login */
+/*LOGIN STYLING HERE*/
 .LoginContainer{
 align-items: center;
 background: #1690A7;
@@ -405,7 +406,7 @@ opacity: .8;
 
 
 
-/* product page*/
+/*PRODUCT PAGE STYLING*/
 .ProductPage {
   background-color: #F5F8F3;
   margin: 0;

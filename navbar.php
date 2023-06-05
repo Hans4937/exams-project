@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>navbar</title>
     <!-- linking script and stylesheet -->
     <script src="./scripts.js"></script>
     <link rel="stylesheet" href="./styles.css"></link>
@@ -17,7 +17,7 @@
     <div class="InnerHeader">
      <!-- Logo in InnerHeader --> 
       <div class="LogoContainer"> 
-            <a href="index.php"><img class="Logo" src="./img/Logo.png" alt="sa"></a>
+            <a href="index.php"><img class="Logo" src="./img/Logo.png" alt="NGLogo"></a>
             <a href="index.php"><h1>Nordic Greens</h1></a>
       </div>
 
