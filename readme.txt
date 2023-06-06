@@ -113,6 +113,7 @@
   2. Open the following website in your prefered browser: "localhost:8888/index.php".
 
   3. IF you want to login on the erhvers page use the following user:
+  The username and password is case sensitive: 
      User     : test@test.com
      Password : 123
 
