@@ -24,7 +24,6 @@
         <label class="ContactUsFormLabel" for="phone">Telefon:</label>
         <input class="ContactUsFormInput" type="text" id="PhoneNumber" name="PhoneNumber" value="12345678" onfocus="clearPlaceholder(this)">
       </div>
-
       <div class="ContactUsFormRow">
         <label class="ContactUsFormLabel" for="Message">Besked:</label>
         <textarea class="ContactUsFormInput" id="ContactUsMessage" name="CustomerMessage" rows="15" cols="50" onfocus="clearPlaceholder(this)"> Din besked her</textarea>
