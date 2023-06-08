@@ -6,13 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <title>Footer</title>
     
     <!-- linking script and stylesheet -->
     <script src="./scripts.js"></script>
     <link rel="stylesheet" href="./styles.css"></link>
-    <!--Link to sociale media icon kit-->
-    <script src="https://kit.fontawesome.com/d5dfb87293.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -20,29 +18,30 @@
     <div class="FooterContainer">
        
         <div class="FooterHeader">
-             <a href="index.php"><img class="Logo" src="./img/LogoNordicGreens2.png" alt="NGLogo"></a>
+             <a href="index.php"><img class="Logo" src="./img/logos/LogoNordicGreens2.png" alt="NGLogo"></a>
         </div>
        
         <div class="Main">
             <div class="FooterColumn">
-            <ul>
-                <li>Assensvej 217, 5250 Odense SV, Danmark</li>
-                <li>CVR-nr. 29 63 45 21</li>
-                <li><button class="IconButton" href=""><i class="fa-brands fa-linkedin fa-xl"></i></button></li> 
-            </ul>
+                <ul>
+                    <li>Assensvej 217, 5250 Odense SV, Danmark</li>
+                    <li>CVR-nr. 29 63 45 21</li>
+                    <li><button class="IconButton" href=""><img class="FacebookLogo1" src="./img/logos/facebook.png"></button></li>
+                </ul>
             </div>
 
             <div class="Row">
                 <div class="PedersensUdvalgte">
                     <h4>Pedersens Udvalgte</h4>
-                    <button class="IconButton" href=""><i class="fa-brands fa-square-facebook fa-xl"></i></button>
-                    <button class="IconButton" href=""><i class="fa-brands fa-instagram fa-xl"></i></button>
+                    <button class="IconButton" href="">
+                        <img class="FacebookLogo1" src="./img/logos/facebook.png" alt="Facebook"></button>
+                    <button class="IconButton" href=""><img class="InstagramLogo1" src="./img/logos/instagram.png"></button>
                 </div>
 
                 <div class="KatrineAlfreds">
                     <h4>Katrine & Alfreds</h4>
-                    <button class="IconButton" href=""><i class="fa-brands fa-square-facebook fa-xl"></i></i></button>
-                    <button class="IconButton" href=""><i class="fa-brands fa-instagram fa-xl"></i></button>
+                    <button class="IconButton" href=""><img class="FacebookLogo1" src="./img/logos/facebook.png"></button>
+                    <button class="IconButton" href=""><img class="InstagramLogo1" src="./img/logos/instagram.png"></button>
                 </div>
             </div>
 

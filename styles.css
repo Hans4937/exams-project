@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/*
+Overval background-color: 
+  background-color: #F5F8F3;
+
+Button color:
+  background-color: #2B3D24;
+*/
+
+
 /* Default style */
 *{
 margin: 0;
@@ -7,18 +16,13 @@ padding: 0;
 list-style: none;
 text-decoration: none;
 font-family: 'Roboto';
+overflow-x: hidden;
 }
 
-/*
 
-Header/Navbar
-  background-color: #F5F8F3;
+/*#region NavigationBar*/
 
-Container/KontaktButton/Hover color
-  background-color: #2B3D24;
-*/
-
-
+/*Navigation/header styling*/
 .Header{
 position: sticky;
 top: 0;
@@ -168,13 +172,13 @@ text-decoration: none;
   background-color: #1D2D18;
 }
 
-
 .Container{
  height: 750px;
  background-image: url("img/homepage.jpg");
  background-repeat: no-repeat;
  background-size: 100%;
 }
+
 .Box{
   padding: 3%;
   max-width: 30%;
@@ -187,6 +191,7 @@ text-decoration: none;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
+
 .Box h2{
   font-size: 30px;
   font-weight: 400;
@@ -209,7 +214,7 @@ text-decoration: none;
   margin: auto;;
 }
 .FooterHeader{
-  width: 150%;
+  width: 100%;
   padding-bottom: 50px;
 }
 
@@ -258,20 +263,34 @@ footer{
   padding-right: 20px;
 }
 
-.IconButton {
-  margin-top: 20px;
-  padding: 12px;
-  border-radius: 50%;
+.IconButton {  
+  border-radius: 10px;
   border-style: none;
 }
 
+.FacebookLogo1{
+  border-radius: 10px;
+  object-fit: contain;
+  width: 2em;
+}
+.InstagramLogo1{
+  border-radius: 10px;
+  object-fit: contain;
+  width: 2em;
+}
 
 .Main{
   width: 50%;
   float: left;
 }
+
 .Main1{
   width: 50%;
+  float: right;
+}
+
+.Menu{
+  width: 400px;
   float: right;
 }
 
@@ -279,21 +298,22 @@ footer{
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
-    
+    width: fit-content;
 }
 
 .Column a{
   color: #f5f5f5;
-  font-size: 22px;
+  font-size: 20px;
+  display: flex;
+  margin: 0.2em;
 }
 
-.Menu{
-  width: 380px;
-  height: 400px;
-  float: right;
-}
 
-/*Styling for the contact form*/
+/*#endregion NavigationBar*/
+
+/*#region ContactUs*/
+
+/*ContactUs styling*/
 /*Make the contact us form offcenter 33% left*/
 .ContactUsFormContainer{
   margin-left: 33.33%;
@@ -321,6 +341,7 @@ footer{
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 8px;
+  color: grey;
 }
 
 .ContactUsFormRow{
@@ -339,14 +360,16 @@ footer{
   font-family: 'Roboto';
   color: white;
   cursor: pointer;
-  font-size: 17px;  
+  font-size: 17px;
 }
+/*#endregion ContactUs*/
 
-/*#REGION LOGIN*/
+/*#region login*/
+
 /*LOGIN STYLING HERE*/
 .LoginContainer{
 align-items: center;
-background: #1690A7;
+background: #a4b2a1;
 display: flex;
 flex-direction: column;
 height: 100vh;
@@ -382,7 +405,7 @@ width: 95%;
 }
 
 .LoginButton {
-background: #555;
+background: #2B3D24;
 border: none;
 border-radius: 5px;
 color: #fff;
@@ -403,8 +426,9 @@ opacity: .8;
   border-radius: 5px;
   margin: 20px auto;
 }
+/*#endregion login*/
 
-/*ENDREGION LOGIN*/
+/*#region ProductPage*/
 
 /*PRODUCT PAGE STYLING*/
 .ProductPage {
@@ -588,199 +612,4 @@ opacity: .8;
   width: fit-content; /* Adjust the width to fit the content */
   margin: 0 auto; /* Center the element horizontally */
 }
-
-/*
-.GridContainerAllProduct .GridItem:nth-child(1) {
-  background-image: url(./img/product/annatomatereco.jpeg);
-height: 250px;
-width: 200px;
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(2) {
-  background-image: url(./img/product/tomataugust.jpeg)
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(3) {
-  background-image: url(./img/product/satmmeagurkeco.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(4) {
-  background-image: url(./img/product/rundetomater.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(5) {
-  background-image: url(./img/product/sanmarzanoeco.jpeg);
-}
-
-.GridContainerAllProduct .GridItem:nth-child(6) {
-  background-image: url(./img/product/cherrytomaterpåstilkeco.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(7) {
-  background-image: url(./img/product/cherrytomaterloseeco.jpeg);
-  height: 125px;
-}
-
-
-
-.GridContainerAllProduct .GridItem:nth-child(8) {
-  background-image: url(./img/product/intensitytomatereco.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(9) {
-  background-image: url(./img/product/katrineogalfredsagurkereco.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(10) {
-  background-image: url(./img/product/fravalgtetomatereco.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(11) {
-  background-image: url(./img/product/fravalgteagurkereco.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(12) {
-  background-image: url(./img/product/idatomater.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(13) {
-  background-image: url(./img/product/rundetomater.jpeg);
-  height: 125px;
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(14) {
-  background-image: url(./img/product/blommetomater.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(15) {
-  background-image: url(./img/product/sanmarzanotomater.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(16) {
-  background-image: url(./img/product/peberfrugtproduct.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(17) {
-  background-image: url(./img/product/palermosnackpeber.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(18) {
-  background-image: url(./img/product/ketchup.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(19) {
-  background-image: url(./img/product/pastasauce.jpeg);
-  height: 125px;
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(20) {
-  background-image: url(./img/product/snackmix.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(21) {
-  background-image: url(./img/product/fravalgtetomater.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(22) {
-  background-image: url(./img/product/fravalgteagurker.jpeg);
-}
-
-.GridContainerAllProduct .GridItem:nth-child(23) {
-  background-image: url(./img/product/katrineogalfredsagurkereco.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(24) {
-  background-image: url(./img/product/katrineogalfredsclassictomater.jpeg);
-}
-
-
-.GridContainerAllProduct .GridItem:nth-child(25) {
-  background-image: url(./img/product/katrineogalfredspeberfrugter.jpeg);
-  height: 125px;
-}
-*/
-
-/*
-.ShopByEco {
-  text-align: center;
-  margin-bottom: 20px;
-}
-*/
-
-/* 
-.GridContainerEco {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* six columns of equal width */
- /*  grid-gap: 10px; /* Spacing between grid items */
- /*  margin-left: 145px;
-  margin-right: 145px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}*/
-/* 
-.GridContainerEco .GridItem:nth-child(1) {
-  background-image: url(./img/product/anatomatereco.jpeg);
-  height: 125px;
-}
-
-.GridContainerEco .GridItem:nth-child(2) {
-  background-image: url(./img/product/tomataugust.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(3) {
-  background-image: url(./img/product/satmmeagurkeco.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(4) {
-  background-image: url(./img/product/rundetomaterøko.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(5) {
-  background-image: url(./img/product/sanmarzanoeco.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(6) {
-  background-image: url(./img/product/cherrytomaterpåstilkeco.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(7) {
-  background-image: url(./img/product/cherrytomaterloseeco.jpeg);
-  height: 125px;
-}
-
-.GridContainerEco .GridItem:nth-child(8) {
-  background-image: url(./img/product/intensitytomatereco.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(9) {
-  background-image: url(./img/product/katrineogalfredsagurkereco.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(10) {
-  background-image: url(./img/product/fravalgtetomatereco.jpeg);
-}
-
-.GridContainerEco .GridItem:nth-child(11) {
-  background-image: url(./img/product/fravalgteagurkereco.jpeg);
-}
-*/
+/*#endregion ProductPage*/

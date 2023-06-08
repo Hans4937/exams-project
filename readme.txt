@@ -78,24 +78,22 @@ How to setup the database:
 
 How to make sure the files are in the correct place:
 
-1. Now you should have a folder with all the project files within them. 
+1. Find the htdocs location on your computer:
 
-2. Find the htdocs location on your computer:
-
-2.1 On windows computers:
-  2.1.1 Find the location where your MAMP folder is.
-  2.1.2 Most likely to be installed in the following path: "This PC -> C: -> MAMP".
-  2.1.3 Locate the htdocs folder and open it.
+1.1 On windows computers:
+  1.1.1 Find the location where your MAMP folder is.
+  1.1.2 Most likely to be installed in the following path: "This PC -> C: -> MAMP".
+  1.1.3 Locate the htdocs folder and open it.
 
   On MacOS computers:
-  2.2.1 Open finder.
-  2.2.2 Click apps and find MAMP.
-  2.2.3 Open htdocs within your MAMP folder.
+  1.2.1 Open finder.
+  1.2.2 Click apps and find MAMP.
+  1.2.3 Open htdocs within your MAMP folder.
   
-3. While the htdocs folder is open, find the project files in file explore and drag them into the htdocs folder.
-  3.5 Replace files if asked.
+2. While the htdocs folder is open, find the project files in another file explore and drag them into the htdocs folder. Only drag the files into the htdocs
+  2.5 Replace files if asked.
 
-4. The file should be in the correct place now and you can close the folders.
+3. The files should be in the correct place now and you can close the folders.
 
 ---------------------------------------------------------------------------------------------------------------------------------
   
