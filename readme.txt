@@ -41,7 +41,7 @@ How to setup the database:
 
 1. Download the project .zip and extract it with 7zip or winrar.
 
-2. Open MAMP, go to mamp in the top left corner and select preferences.
+2. Open MAMP, go to mamp in the top left corner and select preferences, navigate to "Ports".
 
 3. Make sure your ports is just like below:
   
@@ -70,7 +70,7 @@ How to setup the database:
 
 10. Click "Browse your computer".
 
-11. Navigate to the downloaded project files, find the nordicgreens.sql and select it. Then go down the page and click go.
+11. Navigate to the downloaded project files, find the folder named "Database" and select nordicgreens.sql. Then go down the page and click go.
 
 12. Now you should have imported the database correctly and can go to the next section.
 
