@@ -342,7 +342,7 @@ footer{
   font-size: 17px;  
 }
 
-
+/*#REGION LOGIN*/
 /*LOGIN STYLING HERE*/
 .LoginContainer{
 align-items: center;
@@ -404,7 +404,7 @@ opacity: .8;
   margin: 20px auto;
 }
 
-
+/*ENDREGION LOGIN*/
 
 /*PRODUCT PAGE STYLING*/
 .ProductPage {
