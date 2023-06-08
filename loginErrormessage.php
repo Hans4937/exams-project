@@ -34,11 +34,11 @@ if (isset($_POST['CustomerEmail']) && isset($_POST['CusPassword'])) {
             	header("Location: product.php");
 		        exit();
             }else{
-				header("Location: login.php?error=Incorect User name or password");
+				header("Location: login.php?error=Forkert Email eller Kodeord");
 		        exit();
 			}
 		}else{
-			header("Location: login.php?error=Incorect User name or password");
+			header("Location: login.php?error=Forkert Email eller Kodeord");
 	        exit();
 		}
 	}

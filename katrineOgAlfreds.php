@@ -37,7 +37,7 @@
 </div>
 
 <!-- Code for ShopByBrand-->
-<h1 id="ShopByBrand">Shop by Brand</h1>
+<h1 id="ShopByBrand">Brands</h1>
 <div class="GridContainerBrand">
   <button class="GridItem" onclick="redirectToPage('/katrineOgAlfreds.php')">
   </button>
@@ -46,7 +46,7 @@
 </div>
 
 <!-- Code for ShopByProduct-->
-<h1 id="ShopByProduct">Shop by Product</h1>
+<h1 id="ShopByProduct">Produkter</h1>
 <div class="GridContainerProduct">
   <button class="GridItem" onclick="redirectToPage('/productAgurker.php')">
   <h2>Agurker</h2>

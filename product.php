@@ -38,7 +38,7 @@
 </div>
 
 <!-- Code for ShopByBrand-->
-<h1 id="ShopByBrand">Shop by Brand</h1>
+<h1 id="ShopByBrand">Brands</h1>
 <div class="GridContainerBrand">
   <button class="GridItem" onclick="redirectToPage('/katrineOgAlfreds.php')">
   </button>
@@ -47,7 +47,7 @@
 </div>
 
 <!-- Code for ShopByProduct-->
-<h1 id="ShopByProduct">Shop by Product</h1>
+<h1 id="ShopByProduct">Produkter</h1>
 <div class="GridContainerProduct">
   <button class="GridItem" onclick="redirectToPage('/productAgurker.php')">
   <h2>Agurker</h2>
@@ -73,7 +73,7 @@
 </div>
 
 <!-- Code for ShopAllProducts-->
-<h1 id="ShopAllProduct">Shop all Products</h1>
+<h1 id="ShopAllProduct">Alle Produkter</h1>
 <!-- Defining the GridContainerAllProduct for ShopAllProducts-->
 <div class="GridContainerAllProduct">
   
@@ -118,7 +118,7 @@
     <button class="AddToCart">Add to Cart</button>
   </div>
   <div class="GridItemAllProduct">
-    <img src="./img/product/cherrytomaterpåstilkeco.jpeg" alt="Cherry Tomater på stilk">
+    <img src="./img/product/cherrytomaterstilkeco.jpeg" alt="Cherry Tomater på stilk">
     <h2>Cherry Tomater på stilk</h2>
     <p>Description of Anna Tomater.</p>
     <input type="number" min="1" placeholder="Quantity">
